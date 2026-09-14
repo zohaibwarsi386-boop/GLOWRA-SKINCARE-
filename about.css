@@ -2037,10 +2037,33 @@ nav a:hover {
         height: 58px;
         object-fit: contain;
     }
+
     .z-5 {
         position: absolute;
 
+        top: 155px;
+        left: 105px;
+
+        font-size: 23px;
+    }
+
+    .z-6 {
         position: absolute;
+
+        top: 188px;
+        left: 105px;
+
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .line-2 {
+        position: absolute;
+
+        top: 245px;
+        left: 28px;
+
+        width: calc(100% - 56px);
         height: 1px;
     }
 
