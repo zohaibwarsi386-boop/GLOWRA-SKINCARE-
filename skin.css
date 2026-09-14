@@ -1,0 +1,1472 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #F7F3EA;
+}
+nav{ 
+    background-color: #F7F3EA;
+}
+nav a{
+    color: #1C1C18;
+    text-decoration:none;
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+}
+nav a:hover{
+    color: #B58A4A;
+    text-decoration: underline #B58A4A;
+    text-underline-offset: 15px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+ul{
+left: 1100px;
+top: 40px;
+position: absolute;
+
+}
+
+h1{
+     color: #1C1C18;
+     top: 20px;
+     left: 120px;
+     font-family: "Playfair Display", serif;
+     position: absolute;
+}
+h5{
+    color: #8A7655;
+       top: 55px;
+     left: 120px;
+     font-size: 15px;
+     letter-spacing: 3px;
+     font-family: "Poppins", sans-serif;
+     position: absolute;
+}
+.logo{
+    height: 55px;
+    left: 65px;
+    top: 18px;
+    position: absolute;
+}
+.icon-1{
+    height: 45px;
+    top: 25px;
+    left: 1650px;;
+    position: absolute;
+}
+.icon-2{
+    height: 40px;
+    top: 25px;
+    left: 1730px;;
+    position: absolute;
+}
+.icon-3{
+    height: 45px;
+    top: 20px;
+    left: 1800px;;
+    position: absolute;
+}
+.container{
+  background-color:#f4eee7;
+  height: 1200px;
+  width: 100%;
+  top: 100px;
+  position: absolute;
+}
+.home{
+    color: black;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    text-decoration: none;
+}
+.p-1{
+    color: #1C1C18;
+    left: 43%;
+    font-size: 35px;
+    top: 100px;
+    position: absolute;
+}
+.p-2{
+    color: #706E65;
+    top: 145px;
+    font-family: "poppins",sans-serif;
+    left: 41%;
+    line-height: 25px;
+    position: absolute;
+}
+.p-3{
+    left: 65px;
+    position: absolute;
+}
+.line{
+    background-color: #706E65;
+    width: 35%;
+    height: 2px;
+    top: 350px;
+    left: 650px;
+    position: absolute;
+}
+.skin-1{
+     top: 320px;
+     font-size: 25px;
+    left: 605px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-1{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 580px;
+    position: absolute;
+}
+.skin-2{
+    top: 320px;
+     font-size: 25px;
+    left: 770px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-2{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 715px;
+    position: absolute;
+}
+.skin-3{
+    top: 320px;
+     font-size: 25px;
+    left: 930px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-3{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 880px;
+    position: absolute;
+}
+.skin-4{
+    top: 320px;
+     font-size: 25px;
+    left: 1100px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-4{
+    color: #706E65;
+     top: 390px;
+     font-size: 15px;
+    left: 1085px;
+    position: absolute;
+}
+.skin-5{
+    top: 320px;
+     font-size: 25px;
+    left: 1300px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-5{
+    color: #706E65;
+     top: 390px;
+     font-size: 15px;
+    left: 1290px;
+    position: absolute;
+}
+.sec{
+    background-color: #fffbfb;
+    height: 600px;
+    width: 70%;
+    border-radius: 30px;
+    top: 500px;
+    left: 270px;
+    position: absolute;
+}
+.bin-1{
+    top: 40px;
+    left: 500px;
+    position: absolute;
+}
+.bin-2{
+      font-family: "Poppins", sans-serif; 
+    top: 80px;
+    left: 515px;
+    position: absolute;
+    color: #706E65;
+}
+.box-1{
+    left: 130px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-1{
+    left: 205px;
+    height: 75px;
+    top: 200px;
+    position: absolute;
+}
+
+.l-2{
+     left: 180px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+span{
+    left: -10px;
+    position: relative;
+}
+.l-3{
+      font-family: "Poppins", sans-serif; 
+    color: #706E65;
+     left: 180px;
+    height: 75px;
+    top: 320px;
+    position: absolute;
+}
+#l-4{
+     left: 225px;
+    top: 380px;
+    position: absolute;
+}
+
+.box-2{
+     left: 420px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-4{
+  left: 490px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-5{
+     left: 445px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-6{
+    color: #706E65;
+     left: 480px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon{
+    left: -15px;
+    position: relative;
+}
+#l-6{
+      left: 510px;
+    top: 380px;
+    position: absolute;
+}
+.box-3{
+     left: 700px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-7{
+  left: 770px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-8{
+     left: 745px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-9{
+    color: #706E65;
+     left: 740px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon-2{
+    left: 19px;
+    position: relative;
+}
+.spoon-3{
+     left: 34px;
+    position: relative;
+}
+#l-7{
+      left: 800px;
+    top: 380px;
+    position: absolute;
+}
+.box-4{
+     left: 1000px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-10{
+  left: 1070px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-11{
+     left: 1080px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-12{
+    color: #706E65;
+     left: 1040px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon-4{
+    left: 8px;
+    position: relative;
+}
+
+#l-8{
+      left: 1100px;
+    top: 380px;
+    position: absolute;
+}
+.btn{
+    background-color:#1d2613 ;
+    padding: 15px 70px 15px 70px;
+    color: white;
+    top: 500px;
+    left: 43%;
+    font-family: "poppins",sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+}
+/* =========================================
+   GLOWRA SKIN QUIZ
+   PREMIUM ANIMATION CSS
+   Add AFTER your original CSS
+========================================= */
+
+
+/* ================================
+   PAGE ENTRY
+================================ */
+
+body {
+    animation: pageEnter 0.9s ease both;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* ================================
+   NAVBAR
+================================ */
+
+nav {
+    animation: navDrop 0.8s ease both;
+}
+
+@keyframes navDrop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav a {
+    transition:
+        color 0.3s ease,
+        letter-spacing 0.3s ease;
+}
+
+nav a:hover {
+    color: #B58A4A;
+    letter-spacing: 1px;
+}
+
+
+/* LOGO */
+
+.logo {
+    transition:
+        transform 0.4s ease,
+        filter 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+
+/* NAV ICONS */
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    transition:
+        transform 0.35s ease,
+        opacity 0.35s ease;
+}
+
+.icon-1:hover,
+.icon-2:hover,
+.icon-3:hover {
+    transform: translateY(-6px) scale(1.1);
+    opacity: 0.7;
+}
+
+
+/* ================================
+   MAIN CONTAINER
+================================ */
+
+.container {
+    animation: containerReveal 1s 0.2s ease both;
+}
+
+@keyframes containerReveal {
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ================================
+   BACK TO HOME
+================================ */
+
+.home {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.home:hover {
+    color: #B58A4A;
+    transform: translateX(7px);
+}
+
+
+/* ================================
+   MAIN HEADING
+================================ */
+
+.p-1 {
+    animation: headingReveal 0.9s 0.3s ease both;
+}
+
+@keyframes headingReveal {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* DESCRIPTION */
+
+.p-2 {
+    animation: paragraphReveal 0.9s 0.5s ease both;
+}
+
+@keyframes paragraphReveal {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ================================
+   PROGRESS LINE
+================================ */
+
+.line {
+    transform-origin: left;
+
+    animation: lineGrow 1s 0.7s ease both;
+}
+
+@keyframes lineGrow {
+    from {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+/* ================================
+   PROGRESS STEPS
+================================ */
+
+.skin-1,
+.skin-2,
+.skin-3,
+.skin-4,
+.skin-5 {
+    cursor: pointer;
+
+    transition:
+        transform 0.4s ease,
+        background-color 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+
+/* HOVER */
+
+.skin-1:hover,
+.skin-2:hover,
+.skin-3:hover,
+.skin-4:hover,
+.skin-5:hover {
+    transform: translateY(-7px) scale(1.12);
+
+    background-color: #1D2613;
+
+    border-color: #B58A4A;
+
+    color: white;
+
+    box-shadow:
+        0 10px 25px rgba(181, 138, 74, 0.25);
+}
+
+
+/* STEP TEXT */
+
+.head-1,
+.head-2,
+.head-3,
+.head-4,
+.head-5 {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.head-1:hover,
+.head-2:hover,
+.head-3:hover,
+.head-4:hover,
+.head-5:hover {
+    color: #B58A4A;
+
+    transform: translateY(-3px);
+}
+
+
+/* ================================
+   QUIZ SECTION
+================================ */
+
+.sec {
+    animation: quizSection 1s 0.7s cubic-bezier(.2,.8,.2,1) both;
+
+    transition:
+        box-shadow 0.5s ease;
+}
+
+@keyframes quizSection {
+    from {
+        opacity: 0;
+        transform: translateY(60px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.sec:hover {
+    box-shadow:
+        0 20px 50px rgba(28, 28, 24, 0.10);
+}
+
+
+/* ================================
+   QUIZ HEADING
+================================ */
+
+.bin-1 {
+    animation: binHeading 0.8s 0.9s ease both;
+}
+
+@keyframes binHeading {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.bin-2 {
+    animation: binText 0.8s 1.05s ease both;
+}
+
+@keyframes binText {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ================================
+   QUIZ BOXES
+================================ */
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    cursor: pointer;
+
+    transition:
+        transform 0.45s cubic-bezier(.2,.8,.2,1),
+        border-color 0.35s ease,
+        background-color 0.35s ease,
+        box-shadow 0.45s ease;
+}
+
+
+/* CARD HOVER */
+
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+    transform: translateY(-10px);
+
+    border-color: #B58A4A;
+
+    background-color: #FBF7EF;
+
+    box-shadow:
+        0 18px 35px rgba(28, 28, 24, 0.12);
+}
+
+
+/* ================================
+   PRODUCT / SKIN IMAGES
+================================ */
+
+.l-1,
+.l-4,
+.l-7,
+.l-10 {
+    transition:
+        transform 0.55s cubic-bezier(.2,.8,.2,1),
+        filter 0.4s ease;
+}
+
+
+/* IMAGE ZOOM */
+
+.box-1:hover ~ .l-1,
+.box-2:hover ~ .l-4,
+.box-3:hover ~ .l-7,
+.box-4:hover ~ .l-10 {
+    transform: scale(1.12) translateY(-5px);
+
+    filter: brightness(1.05);
+}
+
+
+/* ================================
+   CARD TITLES
+================================ */
+
+.l-2,
+.l-5,
+.l-8,
+.l-11 {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.box-1:hover ~ .l-2,
+.box-2:hover ~ .l-5,
+.box-3:hover ~ .l-8,
+.box-4:hover ~ .l-11 {
+    color: #B58A4A;
+
+    transform: translateY(-4px);
+}
+
+
+/* ================================
+   DESCRIPTION
+================================ */
+
+.l-3,
+.l-6,
+.l-9,
+.l-12 {
+    transition:
+        color 0.3s ease;
+}
+
+.box-1:hover ~ .l-3,
+.box-2:hover ~ .l-6,
+.box-3:hover ~ .l-9,
+.box-4:hover ~ .l-12 {
+    color: #5F5B52;
+}
+
+
+/* ================================
+   RADIO BUTTON
+================================ */
+
+#l-4,
+#l-6,
+#l-7,
+#l-8 {
+    cursor: pointer;
+
+    accent-color: #B58A4A;
+
+    transition:
+        transform 0.3s ease;
+}
+
+#l-4:hover,
+#l-6:hover,
+#l-7:hover,
+#l-8:hover {
+    transform: scale(1.25);
+}
+
+
+/* ================================
+   RESULT BUTTON
+================================ */
+
+.btn {
+    cursor: pointer;
+
+    transition:
+        transform 0.4s ease,
+        background-color 0.35s ease,
+        box-shadow 0.4s ease,
+        letter-spacing 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #B58A4A;
+
+    transform: translateY(-6px);
+
+    letter-spacing: 0.5px;
+
+    box-shadow:
+        0 12px 28px rgba(181, 138, 74, 0.28);
+}
+
+.btn:active {
+    transform: translateY(-2px) scale(0.97);
+}
+
+
+/* ================================
+   SCROLL REVEAL
+================================ */
+
+.quiz-reveal {
+    opacity: 0;
+
+    transform: translateY(50px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s cubic-bezier(.2,.8,.2,1);
+}
+
+.quiz-reveal.active {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+
+/* ================================
+   REDUCED MOTION
+================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+/* =========================================
+   GLOWRA SKIN QUIZ
+   RESPONSIVE — 768px ONLY
+========================================= */
+
+@media (max-width: 768px) {
+ nav {
+        height: 85px;
+        width: 100%;
+        position: relative;
+        background: #F7F3EA;
+        z-index: 9999;
+    }
+    .logo {
+        top: 18px;
+        left: 25px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+
+    nav h1 {
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        font-size: 28px;
+        margin: 0;
+    }
+
+    nav h5 {
+        position: absolute;
+        left: 60px;
+        top: 55px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 78px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        background-color: #F7F3EA;
+        padding: 20px 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        z-index: 9999;
+        box-shadow: 0 10px 25px rgba(28,28,24,0.08);
+    }
+    nav ul.active {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        padding: 13px 25px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    /* HAMBURGER */
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 40px;
+        height: 35px;
+        padding: 6px;
+        border: none;
+        background: transparent;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 10000;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #1C1C18;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+
+    /* =========================
+       NAV LOGO + ICONS
+    ========================= */
+
+    
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        display: none;
+    }
+
+
+    /* =========================
+       MAIN CONTAINER
+    ========================= */
+
+    .container {
+        position: absolute;
+        top: 85px;
+        left: 0;
+
+        width: 100%;
+        height: 330px;
+
+        background-color: #f4eee7;
+    }
+
+    .home {
+        position: absolute;
+        top: 25px;
+        left: 20px;
+
+        font-size: 14px;
+    }
+
+    .p-1 {
+        position: absolute;
+
+        top: 75px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 29px;
+    }
+
+    .p-2 {
+        position: absolute;
+
+        top: 125px;
+        left: 0;
+
+        width: 100%;
+
+        padding: 0 20px;
+
+        text-align: center;
+
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .p-3 {
+        position: static;
+    }
+
+
+    /* =========================
+       PROGRESS LINE
+    ========================= */
+
+    .line {
+        position: absolute;
+
+        top: 445px;
+        left: 10%;
+
+        width: 80%;
+        height: 2px;
+    }
+
+
+    /* =========================
+       PROGRESS STEPS
+    ========================= */
+
+    .box {
+        position: absolute;
+
+        top: 425px;
+        left: 0;
+
+        width: 100%;
+        height: 100px;
+    }
+
+    .skin-1,
+    .skin-2,
+    .skin-3,
+    .skin-4,
+    .skin-5 {
+        top: 0;
+
+        font-size: 17px;
+
+        padding: 8px 12px;
+
+        z-index: 5;
+    }
+
+    .skin-1 {
+        left: 8%;
+    }
+
+    .skin-2 {
+        left: 27%;
+    }
+
+    .skin-3 {
+        left: 46%;
+    }
+
+    .skin-4 {
+        left: 65%;
+    }
+
+    .skin-5 {
+        left: 84%;
+    }
+
+
+    .head-1,
+    .head-2,
+    .head-3,
+    .head-4,
+    .head-5 {
+        top: 55px;
+
+        font-size: 9px;
+
+        text-align: center;
+
+        width: 65px;
+    }
+
+    .head-1 {
+        left: 3%;
+    }
+
+    .head-2 {
+        left: 22%;
+    }
+
+    .head-3 {
+        left: 41%;
+    }
+
+    .head-4 {
+        left: 61%;
+    }
+
+    .head-5 {
+        left: 80%;
+    }
+
+
+    /* =========================
+       QUIZ CARD
+    ========================= */
+
+    .sec {
+        position: absolute;
+
+        top: 550px;
+        left: 5%;
+
+        width: 90%;
+        height: 1450px;
+
+        border-radius: 22px;
+
+        background-color: #fffbfb;
+
+        padding: 0;
+    }
+
+
+    /* =========================
+       QUIZ HEADING
+    ========================= */
+
+    .bin-1 {
+        position: absolute;
+
+        top: 30px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 22px;
+    }
+
+    .bin-2 {
+        position: absolute;
+
+        top: 75px;
+        left: 0;
+
+        width: 100%;
+
+        padding: 0 15px;
+
+        text-align: center;
+
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       OPTION CARDS
+    ========================= */
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+
+        position: absolute;
+
+        left: 7%;
+
+        width: 86%;
+        height: 250px;
+
+        border-radius: 15px;
+
+        background-color: transparent;
+
+        z-index: 1;
+    }
+
+    .box-1 {
+        top: 130px;
+    }
+
+    .box-2 {
+        top: 430px;
+    }
+
+    .box-3 {
+        top: 730px;
+    }
+
+    .box-4 {
+        top: 1030px;
+    }
+
+
+    /* =========================
+       OPTION IMAGES
+    ========================= */
+
+    .l-1,
+    .l-4,
+    .l-7,
+    .l-10 {
+
+        position: absolute;
+
+        left: 33%;
+    
+
+        width: 100px;
+        height: 75px;
+        object-fit: cover;
+        z-index: 2;
+    }
+
+    .l-1 {
+        top: 155px;
+    }
+
+    .l-4 {
+        top: 455px;
+    }
+
+    .l-7 {
+        top: 755px;
+    }
+
+    .l-10 {
+        top: 1055px;
+    }
+
+
+    /* =========================
+       OPTION TITLES
+    ========================= */
+
+    .l-2,
+    .l-5,
+    .l-8,
+    .l-11 {
+
+        position: absolute;
+
+        left: 0;
+
+        width: 100%;
+
+        height: auto;
+
+        text-align: center;
+
+        font-size: 18px;
+
+        z-index: 3;
+    }
+
+    .l-2 {
+        top: 245px;
+    }
+
+    .l-5 {
+        top: 545px;
+    }
+
+    .l-8 {
+        top: 845px;
+    }
+
+    .l-11 {
+        top: 1145px;
+    }
+
+
+    /* =========================
+       OPTION DESCRIPTIONS
+    ========================= */
+
+    .l-3,
+    .l-6,
+    .l-9,
+    .l-12 {
+
+        position: absolute;
+
+        left: 0;
+
+        width: 100%;
+
+        height: auto;
+
+        text-align: center;
+
+        font-size: 12px;
+
+        line-height: 20px;
+
+        z-index: 3;
+    }
+
+    .l-3 {
+        top: 275px;
+    }
+
+    .l-6 {
+        top: 575px;
+    }
+
+    .l-9 {
+        top: 875px;
+    }
+
+    .l-12 {
+        top: 1175px;
+    }
+
+    .l-3 span,
+    .l-6 span,
+    .l-9 span,
+    .l-12 span {
+        position: static;
+    }
+
+
+    /* =========================
+       RADIO BUTTONS
+    ========================= */
+
+    #l-4,
+    #l-6,
+    #l-7,
+    #l-8 {
+
+        position: absolute;
+
+        left: 47%;
+        z-index: 5;
+        width: 18px;
+        height: 18px;
+    }
+
+    #l-4 {
+        top: 345px;
+    }
+
+    #l-6 {
+        top: 645px;
+    }
+
+    #l-7 {
+        top: 945px;
+    }
+
+    #l-8 {
+        top: 1245px;
+    }
+
+
+    /* =========================
+       RESULT BUTTON
+    ========================= */
+
+    .btn {
+
+        position: absolute;
+
+        top: 1350px;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        width: 180px;
+
+        padding: 14px 20px;
+
+        text-align: center;
+
+        border-radius: 10px;
+
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        transform: translateX(-50%) translateY(-5px);
+    }
+}

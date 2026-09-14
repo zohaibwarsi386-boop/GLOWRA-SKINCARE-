@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <h1>GLOWRA</h1>
+            <h5>SKIN CARE</h5>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+        </nav>
+    </header>
+    <img class="logo" src="logo.png">
+    <img class="icon-1" src="search.png">
+    <img class="icon-2" src="user.png">
+    <img class="icon-3" src="cart.png">
+    <div class="container">
+        <img class="hero-image" src="ChatGPT Image Sep 5, 2026, 05_19_09 AM.png">
+        <h5 class="hero-head">GET IN TOUCH </h5>
+        <h1 class="hero-head-2">We'd LOVE To <br>Hear From You</h1>
+        <div class="line"></div>
+        <p class="para-hero">Have a question,feedback or need help ? <br>we are here for you ?</p>
+    </div>
+    <div>
+        <img class="btn-1" src="pin.png">
+        <h6 class="btn-2">Address</h6>
+        <p class="btn-3">122 society street,<br>new york uk</p>
+        <img class="btn-4" src="phone-call.png">
+        <h6 class="btn-5">Phone</h6>
+        <p class="btn-6">+123456</p>
+        <img class="btn-7" src="mail.png">
+        <h6 class="btn-8">Email</h6>
+        <p class="btn-9">Exaple@gmail.com</p>
+        <img class="btn-10" src="working-hours.png">
+        <h6 class="btn-11">Working Hour</h6>
+        <p class="btn-12">Mon-sat:1:00 AM-6:00 Pm</p>
+    </div>
+    <form>
+        <input class="btn-13" type="text" placeholder="Your Name">
+        <input class="btn-14" type="email" placeholder="Your Email">
+        <input class="btn-15" type="text" placeholder="Subject">
+        <textarea class="btn-16" placeholder="Your Message"></textarea>
+        <button class="btn-17" type="submit">Send Message</button>
+    </form>
+    <div>
+        <img  class="img-1" src="ChatGPT Image Sep 7, 2026, 10_13_24 AM.png">
+        <h1 class="img-2">We Are Here To Help</h1>
+        <p class="img-3">Have a question,feedback or need help ? <br>we are here for you ?</p>
+        <a class="img-4" href="https://Message.whatsapp.com/Message/ha0IhGqPcxy2ruCjy1oQzC" target="_blank">Chat With Us</a>
+    </div>
+        <footer class="footer">
+        <img class="logo-1" src="logo-1.png">
+        <h1 class="filter-1">GLOWRA</h1>
+        <h4 class="filter-2">SKIN CARE</h4>
+        <p class="filter-3">Clean ingredients.<br>Real results</p>
+        <img class="icon" src="facebook.png">
+        <h5 class="m-1">Shop</h5>
+        <p class="m-2">All Product</p>
+        <p class="m-3">Best Seller</p>
+        <p class="m-4">New Arrivals</p>
+        <p class="m-5">Bundles</p>
+        <p class="m-6">Sale</p>
+        <h5 class="m-7">Solution</h5>
+        <p class="m-8">Acne Care</p>
+        <p class="m-9">Hydration</p>
+        <p class="m-10">Anti-Aging</p>
+        <p class="m-11">Sensitive Skin</p>
+        <p class="m-12">Brightning</p>
+        <h5 class="m-13">Customer Care</h5>
+        <p class="m-14">FAQ</p>
+        <p class="m-18">Shipping</p>
+        <p class="m-15">Returns</p>
+        <p class="m-16">Track Order</p>
+        <p class="m-17">Contact Us</p>
+        <h5 class="m-19">Newsletter</h5>
+        <P class="m-20">Get exclusive offers and<br>skincare tips straight to<br>your chioce</P>
+        <input class="m-21" type="email" name="uemail" placeholder="Email Address">
+        <button class="m-22">→</button>
+        <div class="line-m"></div>
+        <p class="copyright">© 2024 Glowra Skincare.All rights reserved</p>
+        <p class="police-1">Privacy Policy</p>
+        <p class="police-2">Terms Of Service</p>
+        <p class="police-3">Refund Policy</p>
+
+    </footer>
+    <script>
+        function toggleMenu() {
+    const menu = document.querySelector("nav ul");
+    menu.classList.toggle("active");
+}
+
+const elements = document.querySelectorAll(
+    ".btn-1, .btn-2, .btn-3, " +
+    ".btn-4, .btn-5, .btn-6, " +
+    ".btn-7, .btn-8, .btn-9, " +
+    ".btn-10, .btn-11, .btn-12, " +
+    "form, .img-1, .img-2, .img-3, .img-4, " +
+    ".footer"
+);
+
+elements.forEach((element, index) => {
+
+    element.classList.add("reveal");
+
+    element.style.transitionDelay =
+        `${index * 0.08}s`;
+
+});
+
+
+const observer = new IntersectionObserver(
+    (entries) => {
+
+        entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("active");
+
+            }
+
+        });
+
+    },
+    {
+        threshold: 0.15
+    }
+);
+
+
+elements.forEach((element) => {
+    observer.observe(element);
+});
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./skin.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>GLOWRA</h1>
+            <h5>SKIN CARE</h5>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+         <button class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+        </nav>
+    </header>
+    <img class="logo" src="logo.png">
+    <img class="icon-1" src="search.png">
+    <img class="icon-2" src="user.png">
+    <img class="icon-3" src="cart.png">
+    <div class="container">
+        <a class="home" href="./index.html">←Back To Home</a>
+        <h1 class="p-1">Take The Skin Quiz</h1>
+        <p class="p-2">Answer a few simple question and get a personalized<br><span class="p-3">skincare routione just
+                for
+                you</span></p>
+    </div>
+    <div class="line"></div>
+    <div class="box">
+        <p class="skin-1">1</p>
+        <h5 class="head-1">Skin Type</h5>
+        <p class="skin-2">2</p>
+        <h5 class="head-2">Skin Concern</h5>
+        <p class="skin-3">3</p>
+        <h5 class="head-3">Skin Sensitivity</h5>
+        <p class="skin-4">4</p>
+        <h5 class="head-4">Routine</h5>
+        <p class="skin-5">5</p>
+        <h5 class="head-5">Result</h5>
+    </div>
+    <div class="sec">
+        <H1 class="bin-1">What is your skin type?</H1>
+        <p class="bin-2">Select the one that best describe your skin.</p>
+        <div class="box-1"> </div>
+        <img class="l-1" src="df032ad88e95d4d37ae13962cc7c6aff.jpg">
+        <p class="l-2">Normal Skin</p>
+        <p class="l-3">Well balanced<br><span>neither oliy nor dry</span></p>
+        <input id="l-4" type="radio">
+
+        <div class="box-2"></div>
+        <img class="l-4" src="df032ad88e95d4d37ae13962cc7c6aff.jpg">
+        <p class="l-5">Acne & Breakouts</p>
+        <p class="l-6">Feel tight,<br><span class="spoon">flaky or rought</span></p>
+        <input id="l-6" type="radio">
+
+        <div class="box-3"></div>
+        <img class="l-7" src="df032ad88e95d4d37ae13962cc7c6aff.jpg">
+        <p class="l-8">Sensitive Skin</p>
+        <p class="l-9">Shiny appearence<br><span class="spoon-2">especailly on </span><br>
+            <span class="spoon-3">t-zone</span>
+        </p>
+        <input id="l-7" type="radio">
+
+        <div class="box-4"> </div>
+        <img class="l-10" src="df032ad88e95d4d37ae13962cc7c6aff.jpg">
+        <p class="l-11">8-10 </p>
+        <p class="l-12">Oily in some area<br><span class="spoon-4">and dry in other</span></p>
+        <input id="l-8" type="radio">
+        <a class="btn" href="./result.html">Result</a>
+    </div>
+    <script>
+        /* =========================================
+           SELECT QUIZ ELEMENTS
+        ========================================= */
+
+        const revealItems = document.querySelectorAll(
+            ".box-1, " +
+            ".box-2, " +
+            ".box-3, " +
+            ".box-4"
+        );
+
+
+        /* =========================================
+           ADD SCROLL REVEAL
+        ========================================= */
+
+        revealItems.forEach((item, index) => {
+
+            item.classList.add("quiz-reveal");
+
+            /* One by one */
+            item.style.transitionDelay =
+                `${index * 0.15}s`;
+
+        });
+
+
+        /* =========================================
+           INTERSECTION OBSERVER
+        ========================================= */
+
+        const observer = new IntersectionObserver(
+            (entries, observer) => {
+
+                entries.forEach(entry => {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("active");
+
+                        observer.unobserve(entry.target);
+
+                    }
+
+                });
+
+            },
+            {
+                threshold: 0.15
+            }
+        );
+
+
+        revealItems.forEach(item => {
+            observer.observe(item);
+        });
+
+
+        /* =========================================
+           RADIO BUTTON EFFECT
+        ========================================= */
+
+        const radios = document.querySelectorAll(
+            "#l-4, #l-6, #l-7, #l-8"
+        );
+
+
+        radios.forEach(radio => {
+
+            radio.addEventListener("change", () => {
+
+                /* Remove selected state */
+                document
+                    .querySelectorAll(".box-1, .box-2, .box-3, .box-4")
+                    .forEach(box => {
+
+                        box.style.backgroundColor =
+                            "";
+
+                        box.style.borderColor =
+                            "#1C1C18";
+
+                        box.style.boxShadow =
+                            "";
+
+                    });
+
+
+                /* Find selected card */
+                const selectedCard =
+                    radio.parentElement;
+
+
+                if (selectedCard) {
+
+                    selectedCard.style.backgroundColor =
+                        "#FBF7EF";
+
+                    selectedCard.style.borderColor =
+                        "#B58A4A";
+
+                    selectedCard.style.boxShadow =
+                        "0 15px 35px rgba(181,138,74,0.18)";
+
+                }
+
+            });
+
+        });
+
+
+        /* =========================================
+           RESULT BUTTON PRESS EFFECT
+        ========================================= */
+
+        const resultButton =
+            document.querySelector(".btn");
+
+
+        if (resultButton) {
+
+            resultButton.addEventListener("click", () => {
+
+                resultButton.style.transform =
+                    "translateY(-2px) scale(0.96)";
+
+            });
+
+        }
+
+       
+    </script>
+   <script>
+const hamburger = document.getElementById("hamburger");
+const menu = document.querySelector("nav ul");
+
+hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("active");
+    menu.classList.toggle("active");
+});
+</script>
+</body>
+
+</html>

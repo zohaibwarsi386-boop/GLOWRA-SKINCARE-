@@ -1,0 +1,3446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #F7F3EA;
+}
+nav{ 
+    background-color: #F7F3EA;
+}
+nav a{
+    color: #1C1C18;
+    text-decoration:none;
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+}
+nav a:hover{
+    color: #B58A4A;
+    text-decoration: underline #B58A4A;
+    text-underline-offset: 15px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+ul{
+left: 1170px;
+top: 30px;
+position:absolute;
+
+}
+
+h1{
+     color: #1C1C18;
+     top: 20px;
+     left: 120px;
+     font-family: "Playfair Display", serif;
+     position: absolute;
+}
+h5{
+    color: #8A7655;
+       top: 55px;
+     left: 120px;
+     font-size: 15px;
+     letter-spacing: 3px;
+     font-family: "Poppins", sans-serif;
+     position: absolute;
+}
+.hero-head {
+    color: #B58A4A;
+    top: 200px;
+    letter-spacing: 2px;
+    position: absolute;
+         font-family: "Poppins", sans-serif;
+}
+.hero-head-2{
+    color: #1C1C18;
+    top: 240px;
+    font-size: 55px;
+    position: absolute;
+      font-family: "Playfair Display", serif;
+}
+.para-hero{
+    color: #706E65;
+    top: 450px;
+    position: absolute; 
+    left: 120px;
+    font-size: 18px;
+       font-family: "Poppins", sans-serif;
+
+}
+.btn-1 a{
+    color: white;
+    background-color: #1D2B16;
+    top: 525px;
+    left: 120px;
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 10px;
+   
+}
+.tag-1:hover{
+ background-color: #a58b55;
+ color: white;
+ transform: translateY(-3px);
+ box-shadow: 0 8px 20px rgb(0,0 ,0,0,18);
+}
+.tag-1{
+      padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-2 a{
+    color:black;
+    background-color:white;
+    border:  solid 1px #DED8CA;
+    top: 525px;
+    left: 280px;
+    font-size: 15px;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 10px;
+    transition: 3s;
+}
+.tag-2{
+     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section-1{
+    background-color:#f5eee7;
+    height: 150px;
+    left: 50px;
+    width: 40%;
+    top: 610px;
+    border-radius: 20px;
+    position: absolute;
+}
+.heading-1{
+    color: #706E65;
+    top: 700px;
+    font-size: 18px;
+    left: 120px;
+    position: absolute;
+}
+.heading-2{
+     color: #706E65;
+    top: 700px;
+    font-size: 18px;
+    left: 280px;
+    position: absolute;
+}
+.spin-1{
+left: 30px;
+position: absolute;
+}
+.heading-3{
+     color: #706E65;
+    top: 695px;
+    font-size: 20px;
+    left: 520px;
+    position: absolute;
+}
+.spin-2{
+    left: 10px;
+position: absolute;
+}
+.heading-4{
+    color: #706E65;
+    top: 695px;
+    font-size: 20px;
+    left: 690px;
+    position: absolute;
+}
+.spin-3{
+     left: 10px;
+position: absolute;
+}
+.hero-image{
+    top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+}
+.spoon{
+    color: rgb(168, 164, 164);
+}
+.zuhaib-image-1{
+    top: 625px;
+    left: 110px;
+    height: 60px;
+    position: absolute;
+}
+.zuhaib-image-1:hover{
+    transform: scale(1.2);
+}
+.zuhaib-image-2{
+     top: 620px;
+    left: 305px;
+    height: 70px;
+    position: absolute;
+}
+.zuhaib-image-2:hover{
+    transform: scale(1.2);
+}
+.zuhaib-image-3{
+    top: 630px;
+    left: 520px;
+    height: 60px;
+    position: absolute;
+}
+.zuhaib-image-3:hover{
+    transform: scale(1.2);
+}
+.zuhaib-image-4{
+    top: 625px;
+    left: 700px;
+    height: 60px;
+    position: absolute;
+}
+.zuhaib-image-4:hover{
+    transform: scale(1.2);
+}
+.section{
+    background-color:#1d2613;
+    height: 380px;
+    width: 80%;
+    left: 170px;
+    top: 820px;
+    border-radius: 20px;
+    position: absolute;
+}
+.para-3{
+    color: white;
+  left: 40%;
+   top: 880px;
+   font-size: 35px;
+   font-family:"Playfair Display", serif;;
+   position: absolute;
+}
+.para-4{
+     color:#706E65;
+  left: 39%;
+   top: 930px;
+         font-family: "Poppins", sans-serif;
+   position: absolute;
+}
+.spoon-1{
+    left: 36px;
+    top: 22px;
+    position: absolute;
+}
+.txt-1{
+    left: 300px;
+    height: 110px;
+    top: 955px;
+    position: absolute;
+}
+.txt-2{
+    color: white;
+    left: 290px;
+    top: 1060px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.txt-3{
+    color:#706E65;
+    left: 266px;
+    top: 1090px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.line-1{
+    height: 120px;
+    width: 2px;
+    left: 510px;
+    top: 1040px;
+    position: absolute;
+    background-color: #706E65;
+}
+.txt-4{
+     left: 640px;
+    height: 90px;
+    top: 968px;
+    position: absolute;
+}
+.txt-5{
+    color: white;
+    left: 600px;
+    top: 1060px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.txt-6{
+     color:#706E65;
+    left: 590px;
+    top: 1090px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.math-2{
+    left: 22px;
+    position: absolute;
+}
+.line-2{
+        height: 120px;
+    width: 2px;
+    left: 895px;
+    top: 1040px;
+    position: absolute;
+    background-color: #706E65;
+}
+.txt-7{
+      left: 1020px;
+    height: 90px;
+    top: 970px;
+    position: absolute;
+}
+.txt-8{
+        color: white;
+    left: 1000px;
+    top: 1060px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.txt-12{
+    color: #706E65;
+    left: 1010px;
+    top: 1090px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.math-3{
+ left: -24px;
+ position: relative;
+
+}
+.line-3{
+       height: 120px;
+    width: 2px;
+    left: 1250px;
+    top: 1040px;
+    position: absolute;
+    background-color: #706E65;
+}
+.txt-9{
+       left: 1350px;
+    height: 110px;
+    top: 958px;
+    position: absolute;
+}
+.txt-10{
+        color: white;
+    left: 1330px;
+    top: 1060px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.txt-11{
+      color:#706E65;
+    left: 1325px;
+    top: 1090px;
+       font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    position: absolute;
+}
+.math-4{
+    left: 8px;
+    position: absolute;
+}
+.header{
+    color: #1C1C18;
+    top: 1280px;
+   left: 42%;
+   font-size: 35px;
+    position: absolute;
+       font-family:"Playfair Display", serif;;
+}
+.png{
+     color: #706E65;
+    top: 1325px;
+   left: 41.3%;
+   font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.but-1{
+    left: 150px;
+    top: 1400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-2{
+    color: #1C1C18;
+      left: 195px;
+      font-size: 20px;
+    top: 1730px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+
+}
+.but-3{
+    color: #B58A4A;
+         left: 230px;
+    top: 1770px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+.but-4{
+     left: 500px;
+    top: 1400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px; 
+}
+.but-5{
+        color: #1C1C18;
+      left: 575px;
+      font-size: 20px;
+    top: 1730px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-6{
+    color: #B58A4A;
+         left: 585px;
+    top: 1770px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.but-7{
+      left: 860px;
+    top: 1400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-8{
+    color: #1C1C18;
+      left: 940px;
+      font-size: 20px;
+    top: 1730px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-9{
+    color: #B58A4A;
+         left: 940px;
+    top: 1770px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.but-10{
+      left: 1200px;
+    top: 1400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-11{
+    color: #1C1C18;
+      left: 1240px;
+      font-size: 20px;
+    top: 1730px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-12{
+    color: #B58A4A;
+         left: 1280px;
+    top: 1770px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.but-13{
+      left: 1580px;
+    top: 1400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-14{
+    color: #1C1C18;
+      left: 1680px;
+      font-size: 20px;
+    top: 1730px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+}
+.but-15{
+    color: #B58A4A;
+         left: 1680px;
+    top: 1770px;
+    font-family: "poppins",sans-serif;
+    height: 300px;
+    position: absolute;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.hero-img{
+    height: 55px;
+    top: 15px;
+    left: 60px;
+    position: absolute;
+}
+.mr-1{
+    top: 1900px;
+    left: 45%;
+    font-size: 35px;
+    position: absolute;
+}
+.mr-2{
+    top: 1950px;
+    left: 42%;
+    color: #706E65;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.mr-3{
+     top: 2000px;
+    left: 93%;
+    color:#B58A4A;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+    text-decoration: none;
+}
+.container{
+    gap: 100px;
+    left: 20px;
+
+}
+.card-1{
+    background-color: white;
+    height: 400px;
+    width: 270px;
+    top: 2060px;
+    left: 150px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-2{
+    height: 250px;
+    left: -1px;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.card-3{
+    top: 280px;
+    left: 20px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+
+.card-4{
+    top: 310px;
+    left: 20px;
+    color: #706E65;
+      font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-5{
+    top: 340px;
+    left: 20px;
+  font-size: 18px;
+       font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-6{
+     top: 370px;
+    left: 20px;  
+    height: 15px;   
+    position: absolute;
+}
+.card-7{
+    left:550px ;
+    position: absolute;
+    background-color: white;
+    height: 400px;
+    width: 270px;
+    top: 2060px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-8{
+     height: 250px;
+    left: -1px;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-9{
+    top: 280px;
+    left: 20px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+
+.card-10{
+      top: 310px;
+    left: 20px;
+    color: #706E65;
+      font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-11{
+     top: 340px;
+    left: 20px;
+  font-size: 18px;
+       font-family: "poppins",sans-serif;
+    position: absolute
+}
+.card-12{
+     top: 370px;
+    left: 20px;  
+    height: 15px;   
+    position: absolute;
+}
+.card-13{
+    background-color: white;
+    height: 400px;
+    top: 2070px;
+    left: 960px;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+}
+.card-14{
+  height: 252px;
+    left: 0px;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-15{
+ top: 280px;
+    left: 20px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+
+
+.card-16{
+    top: 310px;
+    left: 20px;
+    color: #706E65;
+      font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-17{
+    top: 340px;
+    left: 20px;
+  font-size: 18px;
+       font-family: "poppins",sans-serif;
+    position: absolute
+}
+.card-18{
+      top: 370px;
+    left: 20px;  
+    height: 15px;   
+    position: absolute;
+}
+.card-19{
+    background-color: white;
+    height: 400px;
+    top: 2070px;
+    left: 1400px;
+    width: 272px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-20{
+  height: 250px;
+    left: -1px;
+    width: 274px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-21{
+ top: 280px;
+    left: 20px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+
+.card-22{
+    top: 310px;
+    left: 20px;
+    color: #706E65;
+      font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-23{
+    top: 340px;
+    left: 20px;
+  font-size: 18px;
+       font-family: "poppins",sans-serif;
+    position: absolute
+}
+.card-24{
+      top: 370px;
+    left: 20px;  
+    height: 15px;   
+    position: absolute;
+}
+.zamir-1{
+top: 2550px;
+height: 340px;
+border-radius: 30px;
+left: 250px;
+width: 70%;
+position: absolute;
+}
+.zamir-2{
+    top: 2660px;
+    left: 60%;
+    position: absolute;
+}
+.zamir-3{
+     top: 2720px;
+     color: #706E65;
+      font-family: "poppins",sans-serif;
+    left: 60%;
+    line-height: 25px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+.zamir-4{
+     top: 2790px;
+    left: 60%;
+    font-size: 15px;
+    border: transparent;
+    font-weight: 500;
+    border-radius: 7px;
+          font-family: "poppins",sans-serif;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    transition: 2s;
+}
+.zamir-4:hover{
+    background-color: #1D2B16;
+    color: white;
+    transform: translateY(-5px);
+
+}
+.img-1{
+    top: 3015px;
+    left: 200px;
+    height: 110px;
+    position: absolute;
+}
+.img-2{
+    top: 3050px;
+    left: 330px;
+     font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.img-3{
+    color: #706E65;
+  top: 3080px;
+    left: 330px;
+     font-family: "poppins",sans-serif;
+    position: absolute;   
+}
+.img-4{
+     top: 3015px;
+    left: 600px;
+    height: 110px;
+    position: absolute;
+}
+.img-5{
+     top: 3050px;
+    left: 730px;
+     font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.img-6{
+     color: #706E65;
+  top: 3080px;
+    left: 730px;
+     font-family: "poppins",sans-serif;
+    position: absolute; 
+}
+.img-7{
+top: 3015px;
+    left: 1050px;
+    height: 110px;
+    position: absolute;
+}
+.img-8{
+     top: 3050px;
+    left: 1160px;
+     font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.img-9{
+     color: #706E65;
+  top: 3080px;
+    left: 1160px;
+     font-family: "poppins",sans-serif;
+    position: absolute; 
+}
+.img-10{
+    top: 3015px;
+    left: 1460px;
+    height: 110px;
+    position: absolute;
+}
+.img-11{
+     top: 3050px;
+    left: 1580px;
+     font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.img-12{
+     color: #706E65;
+  top: 3080px;
+    left: 1580px;
+     font-family: "poppins",sans-serif;
+    position: absolute; 
+}
+.left-1{
+    height: 40px;
+    top: 20px;
+    left: 1730px;
+    position: absolute;
+}
+.left-2{
+     height: 34px;
+    top: 25px;
+    left: 1800px;
+    position: absolute;
+}
+.left-3{
+    height: 40px;
+    top: 20px;
+    left: 1850px;
+    position: absolute;
+}
+.footer{
+    background-color:#242b1b;
+    height: 500px;
+    width: 100%;
+    top: 3200px;
+    position: absolute;
+}
+.logo{
+    left: 125px;
+    top: 60px;
+    height: 65px;
+    position: absolute;
+}
+.quiz {
+    text-decoration: none;
+    color:black;
+}
+.quiz:hover{
+    color: white;
+}
+
+.filter-1{
+    color: white;
+    left: 200px;
+    top: 65px;
+    position: absolute;
+}
+.filter-2{
+    color: #8A7655;
+       font-family: "poppins",sans-serif;
+       letter-spacing: 2px;
+       left: 200px;
+       top: 105px;
+       position: absolute;
+    
+}
+.filter-3{
+    left: 130px;
+    top: 160px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #706E65;
+    position: absolute;
+         font-family: "poppins",sans-serif;
+}
+.icon{
+    top: 250px;
+    left: 100px;
+    position: absolute;
+}
+.m-1{
+    color: white;
+    top: 70px;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-2{
+     color: #706E65;
+    top: 120px;
+      font-family: "poppins",sans-serif;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-3{
+    color: #706E65;
+    top: 160px;
+      font-family: "poppins",sans-serif;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-4{
+     color: #706E65;
+    top: 200px;
+      font-family: "poppins",sans-serif;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-5{
+     color: #706E65;
+    top: 240px;
+      font-family: "poppins",sans-serif;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-6{
+         color: #706E65;
+    top: 280px;
+      font-family: "poppins",sans-serif;
+    left: 600px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-7{
+     color: white;
+    top: 70px;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-8{
+      color: #706E65;
+    top: 120px;
+      font-family: "poppins",sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-9{
+     color: #706E65;
+    top: 160px;
+      font-family: "poppins",sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-10{
+     color: #706E65;
+    top: 200px;
+      font-family: "poppins",sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-11{
+     color: #706E65;
+    top: 240px;
+      font-family: "poppins",sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-12{
+     color: #706E65;
+    top: 280px;
+      font-family: "poppins",sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+}
+.m-13{
+     color: white;
+    top: 70px;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+}
+.m-14{
+ color: #706E65;
+    top: 120px;
+      font-family: "poppins",sans-serif;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;    
+}
+.m-15{
+    color: #706E65;
+    top: 160px;
+      font-family: "poppins",sans-serif;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-16{
+    color: #706E65;
+    top: 240px;
+      font-family: "poppins",sans-serif;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-18{
+     color: #706E65;
+    top: 200px;
+      font-family: "poppins",sans-serif;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-17{
+     color: #706E65;
+    top: 280px;
+      font-family: "poppins",sans-serif;
+    left: 1200px;
+    font-size: 20px;
+    position: absolute;
+     text-transform: capitalize;
+}
+.m-19{
+  color: white;
+    top: 70px;
+    left: 1580px;
+    font-size: 20px;
+    position: absolute;  
+}
+.m-20{
+     color: #706E65;
+    top: 120px;
+      font-family: "poppins",sans-serif;
+    left: 1580px;
+    font-size: 20px;
+    position: absolute;
+    line-height: 35px;
+     text-transform: capitalize;
+}
+.m-21{
+     color: #706E65;
+    top: 240px;
+    text-align: left;
+    left: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+      font-family: "poppins",sans-serif;
+    left: 1580px;
+    font-size: 20px;
+    position: absolute;
+     border: transparent;
+    line-height: 35px;
+     text-transform: capitalize;
+}
+.m-22{
+    background-color: #1d2613;
+         color: white;
+    top: 240px;
+    border: transparent;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: "poppins",sans-serif;
+    left: 1804px;
+   border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    line-height: 35px;
+     text-transform: capitalize;
+}
+.line-m{
+    background-color: #706E65;
+    width: 90%;
+    height: 2px;
+    top: 380px;
+    left: 125px;
+    position: absolute;
+}
+.copyright{
+    color: #706E65;
+    font-family: "poppins",sans-serif;
+    top: 420px;
+    left: 125px;
+    position: absolute;
+}
+.police-1{
+    color: #706E65;
+     font-family: "poppins",sans-serif;
+    top: 420px;
+    left: 1400px;
+    position: absolute;
+}
+.police-2{
+      color: #706E65;
+     font-family: "poppins",sans-serif;
+    top: 420px;
+    left: 1550px;
+    position: absolute;
+}
+.police-3{
+      color: #706E65;
+     font-family: "poppins",sans-serif;
+    top: 420px;
+    left: 1730px;
+    position: absolute;
+}
+/* =========================================================
+   GLOWRA HOME — PREMIUM ANIMATION + HOVER
+   NAVBAR KO TOUCH NAHI KIYA
+========================================================= */
+
+/* ---------- PAGE ---------- */
+
+
+.hero-image,
+.hero-head,
+.hero-head-2,
+.para-hero,
+.btn-1,
+.btn-2,
+.section-1,
+.zuhaib-image-1,
+.zuhaib-image-2,
+.zuhaib-image-3,
+.zuhaib-image-4,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.para-3,
+.para-4,
+.txt-1,
+.txt-2,
+.txt-3,
+.txt-4,
+.txt-5,
+.txt-6,
+.txt-7,
+.txt-8,
+.txt-9,
+.txt-10,
+.txt-11,
+.txt-12,
+.line-1,
+.line-2,
+.line-3,
+.header,
+.png,
+.mount,
+.but-1,
+.but-2,
+.but-3,
+.but-4,
+.but-5,
+.but-6,
+.but-7,
+.but-8,
+.but-9,
+.but-10,
+.but-11,
+.but-12,
+.but-13,
+.but-14,
+.but-15,
+.hero-img,
+.mr-1,
+.mr-2,
+.mr-3,
+.card-1,
+.card-7,
+.card-13,
+.card-19,
+.zamir-1,
+.zamir-2,
+.zamir-3,
+.zamir-4,
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12,
+.footer {
+    transition:
+        opacity .8s ease,
+        transform .8s ease,
+        filter .8s ease,
+        box-shadow .4s ease,
+        border-color .4s ease,
+        background-color .4s ease;
+}
+
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero-image {
+    animation: heroImage 1.2s ease forwards;
+}
+
+.hero-head {
+    animation: revealLeft 1s ease .2s both;
+}
+
+.hero-head-2 {
+    animation: revealLeft 1s ease .35s both;
+}
+
+.para-hero {
+    animation: revealLeft 1s ease .5s both;
+}
+
+
+/* Hero image hover */
+
+.hero-image {
+    transition: transform 1s ease, filter 1s ease;
+}
+
+.hero-image:hover {
+    transform: scale(1.015);
+    filter: brightness(1.03);
+}
+
+
+/* =========================================================
+   HERO BUTTONS
+========================================================= */
+
+
+
+/* =========================================================
+   BENEFITS / ICONS
+========================================================= */
+
+.zuhaib-image-1,
+.zuhaib-image-2,
+.zuhaib-image-3,
+.zuhaib-image-4 {
+    transition: transform .4s ease, filter .4s ease;
+    cursor: pointer;
+}
+
+.zuhaib-image-1:hover,
+.zuhaib-image-2:hover,
+.zuhaib-image-3:hover,
+.zuhaib-image-4:hover {
+    transform: translateY(-8px) scale(1.12);
+    filter: drop-shadow(0 8px 10px rgba(181,138,74,.25));
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+    transition: transform .4s ease, color .4s ease;
+}
+
+.heading-1:hover,
+.heading-2:hover,
+.heading-3:hover,
+.heading-4:hover {
+    transform: translateY(-5px);
+    color: #B58A4A;
+}
+
+
+/* =========================================================
+   OUR PROMISE
+========================================================= */
+
+.para-3 {
+    transition: transform .6s ease, letter-spacing .5s ease;
+}
+
+.para-3:hover {
+    transform: scale(1.03);
+    letter-spacing: 1px;
+}
+
+.para-4 {
+    transition: transform .5s ease, color .4s ease;
+}
+
+.para-4:hover {
+    transform: translateY(-4px);
+    color: #B58A4A;
+}
+
+
+/* Promise icons */
+
+.txt-1,
+.txt-4,
+.txt-7,
+.txt-9 {
+    transition: transform .45s ease, filter .45s ease;
+}
+
+.txt-1:hover,
+.txt-4:hover,
+.txt-7:hover,
+.txt-9:hover {
+    transform: translateY(-10px) rotate(3deg) scale(1.08);
+    filter: drop-shadow(0 8px 12px rgba(181,138,74,.25));
+}
+
+
+/* Promise text */
+
+.txt-2,
+.txt-5,
+.txt-8,
+.txt-10 {
+    transition: transform .4s ease, color .4s ease;
+}
+
+.txt-2:hover,
+.txt-5:hover,
+.txt-8:hover,
+.txt-10:hover {
+    transform: translateX(5px);
+    color: #B58A4A;
+}
+
+
+/* Promise paragraphs */
+
+.txt-3,
+.txt-6,
+.txt-12,
+.txt-11 {
+    transition: transform .4s ease, color .4s ease;
+}
+
+.txt-3:hover,
+.txt-6:hover,
+.txt-12:hover,
+.txt-11:hover {
+    transform: translateX(5px);
+    color: #706E65;
+}
+
+
+/* Lines */
+
+.line-1,
+.line-2,
+.line-3 {
+    transform-origin: left;
+    transition: transform .6s ease, background-color .4s ease;
+}
+
+.line-1:hover,
+.line-2:hover,
+.line-3:hover {
+    transform: scaleX(1.15);
+    background-color: #B58A4A;
+}
+
+
+/* =========================================================
+   SHOP BY CONCERN
+========================================================= */
+
+.header {
+    transition: transform .5s ease, letter-spacing .5s ease;
+}
+
+.header:hover {
+    transform: translateY(-5px);
+    letter-spacing: 1px;
+}
+
+.png {
+    transition: transform .4s ease;
+}
+
+.png:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Concern images */
+
+.but-1,
+.but-4,
+.but-7,
+.but-10,
+.but-13 {
+    transition:
+        transform .5s ease,
+        filter .5s ease,
+        box-shadow .5s ease !important;
+
+    cursor: pointer;
+}
+
+.but-1:hover,
+.but-4:hover,
+.but-7:hover,
+.but-10:hover,
+.but-13:hover {
+    transform: translateY(-10px) scale(1.035) !important;
+    filter: brightness(1.04);
+    box-shadow: 0 18px 35px rgba(0,0,0,.15);
+}
+
+
+/* Concern titles */
+
+.but-2,
+.but-5,
+.but-8,
+.but-11,
+.but-14 {
+    transition: transform .4s ease, color .4s ease;
+}
+
+.but-2:hover,
+.but-5:hover,
+.but-8:hover,
+.but-11:hover,
+.but-14:hover {
+    transform: translateY(-5px);
+    color: #B58A4A;
+}
+
+
+/* Concern Shop Now */
+
+.but-3,
+.but-6,
+.but-9,
+.but-12,
+.but-15 {
+    transition: all .35s ease;
+}
+
+.but-3:hover,
+.but-6:hover,
+.but-9:hover,
+.but-12:hover,
+.but-15:hover {
+    color: #B58A4A;
+    letter-spacing: 1px;
+    transform: translateX(6px);
+}
+
+
+/* =========================================================
+   BEST SELLER
+========================================================= */
+
+.hero-img {
+    transition: transform .6s ease, filter .5s ease;
+}
+
+.hero-img:hover {
+    transform: rotate(-4deg) scale(1.08);
+}
+
+.mr-1 {
+    transition: transform .5s ease, letter-spacing .5s ease;
+}
+
+.mr-1:hover {
+    transform: translateY(-5px);
+    letter-spacing: 1px;
+}
+
+.mr-2 {
+    transition: transform .4s ease;
+}
+
+.mr-2:hover {
+    transform: translateY(-3px);
+}
+
+.mr-3 {
+    transition: all .35s ease;
+}
+
+.mr-3:hover {
+    color: #B58A4A;
+    letter-spacing: 1px;
+    transform: translateX(5px);
+}
+
+
+/* =========================================================
+   PRODUCT CARDS
+========================================================= */
+
+.card-1,
+.card-7,
+.card-13,
+.card-19 {
+    transition:
+        transform .5s ease,
+        box-shadow .5s ease,
+        border-color .4s ease !important;
+
+    cursor: pointer;
+}
+
+.card-1:hover,
+.card-7:hover,
+.card-13:hover,
+.card-19:hover {
+    transform: translateY(-12px) !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,.14);
+    border-color: #B58A4A !important;
+}
+
+
+/* Product images */
+
+.card-2,
+.card-8,
+.card-14,
+.card-20 {
+    transition: transform .6s ease, filter .5s ease;
+}
+
+.card-1:hover .card-2,
+.card-7:hover .card-8,
+.card-13:hover .card-14,
+.card-19:hover .card-20 {
+    transform: scale(1.06);
+    filter: brightness(1.04);
+}
+
+
+/* Product title */
+
+.card-3,
+.card-9,
+.card-15,
+.card-21 {
+    transition: color .4s ease, transform .4s ease;
+}
+
+.card-1:hover .card-3,
+.card-7:hover .card-9,
+.card-13:hover .card-15,
+.card-19:hover .card-21 {
+    color: #B58A4A;
+    transform: translateX(3px);
+}
+
+
+/* Price */
+
+.card-5,
+.card-11,
+.card-17,
+.card-23 {
+    transition: transform .4s ease, color .4s ease;
+}
+
+.card-1:hover .card-5,
+.card-7:hover .card-11,
+.card-13:hover .card-17,
+.card-19:hover .card-23 {
+    color: #B58A4A;
+    transform: scale(1.05);
+}
+
+
+/* Stars */
+
+.card-6,
+.card-12,
+.card-18,
+.card-24 {
+    transition: transform .4s ease;
+}
+
+.card-1:hover .card-6,
+.card-7:hover .card-12,
+.card-13:hover .card-18,
+.card-19:hover .card-24 {
+    transform: scale(1.12);
+}
+
+
+/* =========================================================
+   SKIN QUIZ
+========================================================= */
+
+.zamir-1 {
+    transition: transform .8s ease, filter .6s ease;
+}
+
+.zamir-1:hover {
+    transform: scale(1.035);
+    filter: brightness(1.04);
+}
+
+.zamir-2 {
+    transition: transform .5s ease, letter-spacing .5s ease;
+}
+
+.zamir-2:hover {
+    transform: translateY(-5px);
+    letter-spacing: 1px;
+}
+
+.zamir-3 {
+    transition: transform .4s ease;
+}
+
+.zamir-3:hover {
+    transform: translateY(-3px);
+}
+
+.zamir-4 {
+    transition: all .4s ease !important;
+}
+
+.zamir-4:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 15px 30px rgba(0,0,0,.18);
+    background: #B58A4A !important;
+}
+
+.zamir-4:hover .quiz {
+    color: #fff !important;
+}
+
+
+/* =========================================================
+   SERVICE ICONS
+========================================================= */
+
+.img-1,
+.img-4,
+.img-7,
+.img-10 {
+    transition: transform .45s ease, filter .45s ease;
+}
+
+.img-1:hover,
+.img-4:hover,
+.img-7:hover,
+.img-10:hover {
+    transform: translateY(-8px) scale(1.12);
+    filter: drop-shadow(0 7px 10px rgba(181,138,74,.25));
+}
+
+
+.img-2,
+.img-5,
+.img-8,
+.img-11 {
+    transition: color .4s ease, transform .4s ease;
+}
+
+.img-2:hover,
+.img-5:hover,
+.img-8:hover,
+.img-11:hover {
+    color: #B58A4A;
+    transform: translateY(-4px);
+}
+
+
+.img-3,
+.img-6,
+.img-9,
+.img-12 {
+    transition: transform .4s ease;
+}
+
+.img-3:hover,
+.img-6:hover,
+.img-9:hover,
+.img-12:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer {
+    transition: box-shadow .5s ease;
+}
+
+.footer:hover {
+    box-shadow: 0 -10px 35px rgba(0,0,0,.08);
+}
+
+
+/* Footer logo */
+
+.logo {
+    transition: transform .6s ease, filter .5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+
+/* Footer headings */
+
+.m-1,
+.m-7,
+.m-13,
+.m-19 {
+    transition: color .4s ease, transform .4s ease;
+}
+
+.m-1:hover,
+.m-7:hover,
+.m-13:hover,
+.m-19:hover {
+    color: #B58A4A;
+    transform: translateX(5px);
+}
+
+
+/* Footer links/text */
+
+.m-2,
+.m-3,
+.m-4,
+.m-5,
+.m-6,
+.m-8,
+.m-9,
+.m-10,
+.m-11,
+.m-12,
+.m-14,
+.m-15,
+.m-16,
+.m-17,
+.m-18 {
+    transition: color .3s ease, transform .3s ease;
+    cursor: pointer;
+}
+
+.m-2:hover,
+.m-3:hover,
+.m-4:hover,
+.m-5:hover,
+.m-6:hover,
+.m-8:hover,
+.m-9:hover,
+.m-10:hover,
+.m-11:hover,
+.m-12:hover,
+.m-14:hover,
+.m-15:hover,
+.m-16:hover,
+.m-17:hover,
+.m-18:hover {
+    color: #B58A4A;
+    transform: translateX(5px);
+}
+
+
+/* Newsletter input */
+
+.m-21 {
+    transition: all .4s ease;
+}
+
+.m-21:focus {
+    outline: none;
+    border-color: #B58A4A !important;
+    box-shadow: 0 0 0 3px rgba(181,138,74,.12);
+}
+
+
+/* Newsletter button */
+
+.m-22 {
+    transition: all .35s ease;
+    cursor: pointer;
+}
+
+.m-22:hover {
+    background: #B58A4A !important;
+    color: #fff !important;
+    transform: translateX(4px);
+}
+
+
+/* Social icon */
+
+.icon {
+    transition: transform .4s ease, filter .4s ease;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: translateY(-5px) scale(1.12);
+    filter: drop-shadow(0 5px 8px rgba(181,138,74,.3));
+}
+
+
+/* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-up,
+.reveal-scale {
+    opacity: 0;
+    transition:
+        opacity .9s ease,
+        transform .9s cubic-bezier(.22,1,.36,1);
+}
+
+.reveal {
+    transform: translateY(50px);
+}
+
+.reveal-left {
+    transform: translateX(-60px);
+}
+
+.reveal-right {
+    transform: translateX(60px);
+}
+
+.reveal-up {
+    transform: translateY(70px);
+}
+
+.reveal-scale {
+    transform: scale(.88);
+}
+
+.reveal.active,
+.reveal-left.active,
+.reveal-right.active,
+.reveal-up.active,
+.reveal-scale.active {
+    opacity: 1;
+    transform: translate(0) scale(1);
+}
+
+
+/* =========================================================
+   KEYFRAMES
+========================================================= */
+
+@keyframes heroImage {
+    from {
+        opacity: 0;
+        transform: scale(1.08);
+        filter: blur(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+
+@keyframes revealLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}/* =========================================================
+   GLOWRA HOME PAGE
+   MOBILE RESPONSIVE — 768px ONLY
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        height: 85px;
+        position: relative;
+    }
+
+   
+
+    /* Desktop menu hide */
+    nav ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 85px;
+        width: 100%;
+        background: #F7F3EA;
+        padding: 15px 0;
+        text-align: center;
+        z-index: 9999;
+        box-shadow: 0 10px 25px rgba(28,28,24,0.10);
+    }
+
+    /* Mobile menu show */
+    nav ul.active {
+        display: block;
+        animation: menuDown 0.3s ease;
+    }
+
+    nav li {
+        display: block;
+        padding: 13px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    /* =========================
+       HERO IMAGE
+       ========================= */
+
+    .hero-image {
+        position: absolute;
+
+        top: 85px;
+        left: 0;
+
+        width: 100%;
+        height: 330px;
+
+        object-fit: cover;
+
+        z-index: 1;
+    }
+
+
+    /* =========================
+       HERO TEXT
+       ========================= */
+
+    .hero-head {
+        position: absolute;
+
+        top: 115px;
+        left: 28px;
+
+        font-size: 12px;
+
+
+        z-index: 2;
+    }
+
+    .hero-head-2 {
+        position: absolute;
+
+        top: 140px;
+        left: 28px;
+
+        width: 90%;
+
+        font-size: 38px;
+        line-height: 1.13;
+
+        z-index: 2;
+    }
+
+    .para-hero {
+        position: absolute;
+
+        top: 280px;
+        left: 28px;
+
+        width: calc(100% - 56px);
+
+        font-size: 13px;
+        line-height: 23px;
+
+        z-index: 2;
+    }
+
+
+    /* =========================
+       HERO BUTTONS
+       ========================= */
+
+    .btn-1 a,
+    .btn-2 a {
+        position: absolute;
+
+        top: 350px;
+
+        height: 48px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 8px;
+
+        font-size: 13px;
+
+        z-index: 5;
+    }
+
+    .btn-1 a {
+        left: 28px;
+        width: 135px;
+
+        background: #1D2B16;
+    }
+
+    .btn-2 a {
+        left: 175px;
+        width: 155px;
+
+        background: white;
+        border: 1px solid #DED8CA;
+    }
+
+    .tag-1,
+    .tag-2 {
+        padding: 0 !important;
+    }
+.section-1{
+    height: 280px;
+    width: 90%;
+    left: 20px;
+    top: 500px;
+}
+    /* ICON 1 */
+
+    .zuhaib-image-1 {
+        position:absolute;
+
+        top: 520px;
+        left: 12%;
+
+        height: 55px;
+    }
+
+    .heading-1 {
+        position: absolute;
+
+        top: 580px;
+        left: 17%;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* ICON 2 */
+
+    .zuhaib-image-2 {
+        position: absolute;
+
+        top: 520px;
+        left: 65%;
+
+        height: 65px;
+    }
+
+    .heading-2 {
+        position: absolute;
+
+        top: 580px;
+        left: 63%;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .spin-1 {
+        left: 20px;
+    }
+
+    /* ICON 3 */
+
+    .zuhaib-image-3 {
+        position: absolute;
+
+        top: 650px;
+        left: 12%;
+
+        height: 65px;
+    }
+
+    .heading-3 {
+        position: absolute;
+
+        top: 710px;
+        left: 16%;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .spin-2 {
+        left: 8px;
+    }
+
+    /* ICON 4 */
+
+    .zuhaib-image-4 {
+        position: absolute;
+
+        top: 650px;
+        left: 69%;
+
+        height: 60px;
+    }
+
+    .heading-4 {
+        position: absolute;
+
+        top: 710px;
+        left: 70%;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .spin-3 {
+        left: 8px;
+    }
+
+
+    /* =========================
+       OUR PROMISE
+       ========================= */
+
+    .section {
+        position: absolute;
+
+        top: 850px;
+        left: 5%;
+
+        width: 90%;
+        height: 720px;
+
+        background: #1d2613;
+
+        border-radius: 20px;
+
+        z-index: 1;
+    }
+
+    .para-3 {
+        position: absolute;
+
+        top: 900px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 28px;
+
+        z-index: 3;
+    }
+
+    .para-4 {
+        position: absolute;
+
+        top: 940px;
+        left: 8%;
+
+        width: 84%;
+
+        color: #706E65;
+
+        text-align: center;
+
+        font-size: 12px;
+        line-height: 20px;
+
+        z-index: 3;
+    }
+
+    .spoon-1 {
+        position: static;
+    }
+
+    /* PROMISE 1 */
+
+    .txt-1 {
+        position: absolute;
+
+        top: 1000px;
+        left: 12%;
+
+        height: 75px;
+
+        z-index: 3;
+    }
+
+    .txt-2 {
+        position: absolute;
+
+        top: 1020px;
+        left: 35%;
+
+        font-size: 16px;
+
+        z-index: 3;
+    }
+
+    .txt-3 {
+        position: absolute;
+
+        top: 1040px;
+        left: 35%;
+
+        font-size: 11px;
+        line-height: 18px;
+
+        z-index: 3;
+    }
+
+    .line-1 {
+        position: absolute;
+
+        top: 1110px;
+        left: 10%;
+
+        width: 80%;
+        height: 1px;
+
+        background: #706E65;
+
+        z-index: 3;
+    }
+
+
+    /* PROMISE 2 */
+
+    .txt-4 {
+        position: absolute;
+
+        top: 1140px;
+        left: 12%;
+
+        height: 65px;
+
+        z-index: 3;
+    }
+
+    .txt-5 {
+        position: absolute;
+
+        top: 1150px;
+        left: 35%;
+
+        font-size: 16px;
+
+        z-index: 3;
+    }
+
+    .txt-6 {
+        position: absolute;
+
+        top: 1170px;
+        left: 35%;
+
+        font-size: 11px;
+        line-height: 18px;
+
+        z-index: 3;
+    }
+
+    .math-2 {
+        position: static;
+    }
+
+    .line-2 {
+        position: absolute;
+
+        top: 1240px;
+        left: 10%;
+
+        width: 80%;
+        height: 1px;
+
+        background: #706E65;
+
+        z-index: 3;
+    }
+
+
+    /* PROMISE 3 */
+
+    .txt-7 {
+        position: absolute;
+
+        top: 1280px;
+        left: 12%;
+
+        height: 65px;
+
+        z-index: 3;
+    }
+
+    .txt-8 {
+        position: absolute;
+
+        top: 1290px;
+        left: 35%;
+
+        font-size: 16px;
+
+        z-index: 3;
+    }
+
+    .txt-12 {
+        position: absolute;
+
+        top: 1310px;
+        left: 35%;
+
+        font-size: 11px;
+        line-height: 18px;
+
+        z-index: 3;
+    }
+
+    .math-3 {
+        position: static;
+    }
+
+    .line-3 {
+        position: absolute;
+
+        top: 1380px;
+        left: 10%;
+
+        width: 80%;
+        height: 1px;
+
+        background: #706E65;
+
+        z-index: 3;
+    }
+
+
+    /* PROMISE 4 */
+
+    .txt-9 {
+        position: absolute;
+
+        top: 1400px;
+        left: 10%;
+
+        height: 85px;
+
+        z-index: 3;
+    }
+
+    .txt-10 {
+        position: absolute;
+
+        top: 1430px;
+        left: 35%;
+
+        font-size: 16px;
+
+        z-index: 3;
+    }
+
+    .txt-11 {
+        position: absolute;
+
+        top: 1450px;
+        left: 35%;
+
+        font-size: 11px;
+        line-height: 18px;
+
+        z-index: 3;
+    }
+
+    .math-4 {
+        position: static;
+    }
+
+
+    /* =========================
+       SHOP BY CONCERN
+       ========================= */
+
+    .header {
+        position: absolute;
+
+        top: 1600px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 29px;
+
+        z-index: 2;
+    }
+
+    .png {
+        position: absolute;
+
+        top: 1650px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 12px;
+    }
+
+    .mount {
+        position: absolute;
+
+        top: 1700px;
+        left: 0;
+
+        width: 100%;
+        height: 1980px;
+
+        background: #f5eee7;
+
+        z-index: 0;
+    }
+
+
+    /* =========================
+       CONCERN CARD 1
+       ========================= */
+
+    .but-1 {
+        position: absolute;
+
+        top: 1700px;
+        left: 8%;
+
+        width: 84%;
+        height: 260px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .but-2 {
+        position: absolute;
+
+        top: 2000px;
+        left: 10%;
+
+        font-size: 17px;
+    }
+
+    .but-3 {
+        position: absolute;
+
+        top: 2030px;
+        left: 10%;
+
+        font-size: 13px;
+
+        height: auto;
+    }
+
+
+    /* =========================
+       CONCERN CARD 2
+       ========================= */
+
+    .but-4 {
+        position: absolute;
+
+        top: 2100px;
+        left: 8%;
+
+        width: 84%;
+        height: 260px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .but-5 {
+        position: absolute;
+
+        top: 2400px;
+        left: 10%;
+
+        font-size: 17px;
+    }
+
+    .but-6 {
+        position: absolute;
+
+        top: 2430px;
+        left: 10%;
+
+        font-size: 13px;
+
+        height: auto;
+    }
+
+
+    /* =========================
+       CONCERN CARD 3
+       ========================= */
+
+    .but-7 {
+        position: absolute;
+
+        top: 2500px;
+        left: 8%;
+
+        width: 84%;
+        height: 260px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .but-8 {
+        position: absolute;
+
+        top: 2800px;
+        left: 10%;
+
+        font-size: 17px;
+    }
+
+    .but-9 {
+        position: absolute;
+
+        top: 2830px;
+        left: 10%;
+
+        font-size: 13px;
+
+        height: auto;
+    }
+
+
+    /* =========================
+       CONCERN CARD 4
+       ========================= */
+
+    .but-10 {
+        position: absolute;
+
+        top: 2900px;
+        left: 8%;
+
+        width: 84%;
+        height: 260px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .but-11 {
+        position: absolute;
+
+        top: 3200px;
+        left: 10%;
+
+        font-size: 17px;
+    }
+
+    .but-12 {
+        position: absolute;
+
+        top: 3230px;
+        left: 10%;
+
+        font-size: 13px;
+
+        height: auto;
+    }
+
+
+    /* =========================
+       CONCERN CARD 5
+       ========================= */
+
+    .but-13 {
+        position: absolute;
+
+        top: 3300px;
+        left: 8%;
+
+        width: 84%;
+        height: 260px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .but-14 {
+        position: absolute;
+
+        top: 3600px;
+        left: 10%;
+
+        font-size: 17px;
+    }
+
+    .but-15 {
+        position: absolute;
+
+        top: 3630px;
+        left: 10%;
+
+        font-size: 13px;
+
+        height: auto;
+    }
+
+
+    /* =========================
+       BEST SELLER
+       ========================= */
+
+  
+    .mr-1 {
+        position: absolute;
+
+        top: 3700px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 29px;
+    }
+
+    .mr-2 {
+        position: absolute;
+
+        top: 3740px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 12px;
+    }
+
+    .mr-3 {
+        position: absolute;
+
+        top: 3800px;
+        right: 25px;
+        left: auto;
+
+        font-size: 13px;
+    }
+
+
+    /* =========================
+       PRODUCT CONTAINER
+       ========================= */
+
+    .container {
+        position: absolute;
+
+        top: 3870px;
+        left: 0;
+
+        width: 100%;
+        height: 1700px;
+    }
+
+
+    /* =========================
+       CARD 1
+       ========================= */
+
+    .card-1 {
+        position: absolute;
+
+        top: 0;
+        left: 8%;
+
+        width: 84%;
+        height: 390px;
+
+        background: white;
+
+        border-radius: 15px;
+    }
+
+    .card-2 {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 240px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .card-3 {
+        top: 265px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-4 {
+        top: 295px;
+        left: 20px;
+
+        font-size: 12px;
+    }
+
+    .card-5 {
+        top: 325px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-6 {
+        top: 355px;
+        left: 20px;
+
+        height: 14px;
+    }
+
+
+    /* =========================
+       CARD 2
+       ========================= */
+
+    .card-7 {
+        position: absolute;
+
+        top: 420px;
+        left: 8%;
+
+        width: 84%;
+        height: 390px;
+
+        background: white;
+
+        border-radius: 15px;
+    }
+
+    .card-8 {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 240px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .card-9 {
+        top: 265px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-10 {
+        top: 295px;
+        left: 20px;
+
+        font-size: 12px;
+    }
+
+    .card-11 {
+        top: 325px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-12 {
+        top: 355px;
+        left: 20px;
+
+        height: 14px;
+    }
+
+
+    /* =========================
+       CARD 3
+       ========================= */
+
+    .card-13 {
+        position: absolute;
+
+        top: 840px;
+        left: 8%;
+
+        width: 84%;
+        height: 390px;
+
+        background: white;
+
+        border-radius: 15px;
+    }
+
+    .card-14 {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 240px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .card-15 {
+        top: 265px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-16 {
+        top: 295px;
+        left: 20px;
+
+        font-size: 12px;
+    }
+
+    .card-17 {
+        top: 325px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-18 {
+        top: 355px;
+        left: 20px;
+
+        height: 14px;
+    }
+
+
+    /* =========================
+       CARD 4
+       ========================= */
+
+    .card-19 {
+        position: absolute;
+
+        top: 1260px;
+        left: 8%;
+
+        width: 84%;
+        height: 390px;
+
+        background: white;
+
+        border-radius: 15px;
+    }
+
+    .card-20 {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 240px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .card-21 {
+        top: 265px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-22 {
+        top: 295px;
+        left: 20px;
+
+        font-size: 12px;
+    }
+
+    .card-23 {
+        top: 325px;
+        left: 20px;
+
+        font-size: 16px;
+    }
+
+    .card-24 {
+        top: 355px;
+        left: 20px;
+
+        height: 14px;
+    }
+
+
+    /* =========================
+       SKIN QUIZ
+       ========================= */
+
+    .zamir-1 {
+        position: absolute;
+
+        top: 5600px;
+        left: 5%;
+
+        width: 90%;
+        height: 250px;
+
+        object-fit: cover;
+
+        border-radius: 20px;
+    }
+
+    .zamir-2 {
+        position: absolute;
+
+        top: 5640px;
+        left: 10%;
+
+        width: 80%;
+
+        text-align: center;
+
+        font-size: 30px;
+    }
+
+    .zamir-3 {
+        position: absolute;
+
+        top: 5700px;
+        left: 10%;
+
+        width: 80%;
+
+        text-align: center;
+
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .zamir-4 {
+        position: absolute;
+
+        top: 5770px;
+        left: 30%;
+
+        width: 40%;
+
+        padding: 10px;
+
+        font-size: 12px;
+
+        border: none;
+        border-radius: 7px;
+    }
+
+
+    /* =========================
+       SERVICES
+       ========================= */
+
+    .img-1 {
+        position: absolute;
+
+        top: 5900px;
+        left: 12%;
+
+        height: 65px;
+    }
+
+    .img-2 {
+        position: absolute;
+
+        top: 5910px;
+        left: 35%;
+
+        font-size: 15px;
+    }
+
+    .img-3 {
+        position: absolute;
+
+        top: 5940px;
+        left: 35%;
+
+        font-size: 11px;
+    }
+
+
+    .img-4 {
+        position: absolute;
+
+        top: 6020px;
+        left: 12%;
+
+        height: 65px;
+    }
+
+    .img-5 {
+        position: absolute;
+
+        top: 6030px;
+        left: 35%;
+
+        font-size: 15px;
+    }
+
+    .img-6 {
+        position: absolute;
+
+        top: 6060px;
+        left: 35%;
+
+        font-size: 11px;
+    }
+
+
+    .img-7 {
+        position: absolute;
+
+        top: 6130px;
+        left: 14%;
+
+        height: 65px;
+    }
+
+    .img-8 {
+        position: absolute;
+
+        top: 6140px;
+        left: 35%;
+
+        font-size: 15px;
+    }
+
+    .img-9 {
+        position: absolute;
+
+        top: 6170px;
+        left: 35%;
+
+        font-size: 11px;
+    }
+
+
+    .img-10 {
+        position: absolute;
+
+        top: 6240px;
+        left: 12%;
+
+        height: 65px;
+    }
+
+    .img-11 {
+        position: absolute;
+
+        top: 6250px;
+        left: 35%;
+
+        font-size: 15px;
+    }
+
+    .img-12 {
+        position: absolute;
+
+        top: 6280px;
+        left: 35%;
+
+        font-size: 11px;
+    }
+
+
+    /* =========================
+       TOP RIGHT ICONS HIDE
+       ========================= */
+
+    .left-1,
+    .left-2,
+    .left-3 {
+        display: none;
+    }
+
+
+    /* =========================
+       FOOTER
+       ========================= */
+
+    footer {
+        position: absolute;
+
+        top: 6000px;
+        left: 0;
+
+        width: 100%;
+        height: 900px;
+
+        background: #242b1b;
+
+        overflow: hidden;
+    }
+
+
+  /* FOOTER */
+    .footer {
+        top: 6340px;
+        height: 1050px;
+        width: 100%;
+    }
+
+    .logo {
+        left: 25px;
+        top: 32px;
+        height:50px;
+    }
+
+    .filter-1 {
+        left: 80px;
+        top: 35px;
+        font-size: 25px;
+    }
+
+    .filter-2 {
+        left: 80px;
+        top: 70px;
+        font-size: 11px;
+    }
+
+    .filter-3 {
+        left: 50px;
+        top: 100px;
+        font-size: 16px;
+    }
+
+    .icon {
+        left: 25px;
+        top: 170px;
+    }
+
+    /* FOOTER COLUMN 1 */
+    .m-1 { left: 25px; top: 270px; }
+    .m-2 { left: 25px; top: 315px; }
+    .m-3 { left: 25px; top: 350px; }
+    .m-4 { left: 25px; top: 385px; }
+    .m-5 { left: 25px; top: 420px; }
+    .m-6 { left: 25px; top: 455px; }
+
+    /* FOOTER COLUMN 2 */
+    .m-7 { left: 180px; top: 270px; }
+    .m-8 { left: 180px; top: 315px; }
+    .m-9 { left: 180px; top: 350px; }
+    .m-10 { left: 180px; top: 385px; }
+    .m-11 { left: 180px; top: 420px; }
+    .m-12 { left: 180px; top: 455px; }
+
+    /* FOOTER CUSTOMER CARE */
+    .m-13 { left: 25px; top: 510px; }
+    .m-14 { left: 25px; top: 550px; }
+    .m-18 { left: 25px; top: 585px; }
+    .m-15 { left: 25px; top: 620px; }
+    .m-16 { left: 25px; top: 655px; }
+    .m-17 { left: 25px; top: 690px; }
+
+    /* NEWSLETTER */
+    .m-19 {
+        left: 25px;
+        top: 750px;
+    }
+
+    .m-20 {
+        left: 25px;
+        top: 790px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .m-21 {
+        left: 25px;
+        top: 875px;
+        width: 220px;
+    }
+
+    .m-22 {
+        left: 245px;
+        top: 875px;
+    }
+
+    /* FOOTER BOTTOM */
+    .line-m {
+        top: 940px;
+        left: 25px;
+        width: calc(100% - 50px);
+    }
+
+    .copyright {
+        top: 955px;
+        left: 25px;
+        font-size: 11px;
+    }
+
+    .police-1 {
+        top: 985px;
+        left: 25px;
+        font-size: 11px;
+    }
+
+    .police-2 {
+        top: 985px;
+        left: 125px;
+        font-size: 11px;
+    }
+
+    .police-3 {
+        top: 985px;
+        left: 245px;
+        font-size: 11px;
+    }
+}
+
+    /* =========================
+       MOBILE MENU ANIMATION
+       ========================= */
+
+    @keyframes menuDown {
+
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    /* ================================
+   MOBILE HAMBURGER - 768px
+================================ */
+
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    z-index: 9999;
+}
+
+.hamburger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 5px auto;
+    background: #1C1C18;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+        position: relative;
+        z-index: 9999;
+    }
+    nav {
+        width: 100%;
+        min-height: 80px;
+        position:absolute;
+        display: flex;
+        align-items: center;
+    }
+.hero-img{
+top: 20px;
+left: 20px;
+height: 45px;
+position: absolute;
+}
+    nav h1 {
+        position: absolute;
+        left: 65px;
+        top: 25px;
+        margin: 0;
+        font-size: 25px;
+        z-index: 10000;
+    }
+
+    nav h5 {
+        position: absolute;
+        left: 65px;
+        top: 50px;
+        margin: 0;
+        font-size: 10px;
+        letter-spacing: 2px;
+        z-index: 10000;
+    }
+
+    /* Hamburger visible */
+    .hamburger {
+        display: block !important;
+    }
+
+    /* Mobile menu */
+    nav ul {
+        display: none !important;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        background: #F7F3EA;
+        flex-direction: column;
+        align-items: center;
+        z-index: 9998;
+        border-top: 1px solid #DED8CA;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    /* When JavaScript adds active */
+    nav ul.active {
+        display: flex !important;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 0px;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #1C1C18;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 10px;
+        transition: 0.3s ease;
+    }
+
+    nav ul li a:hover {
+        color: #B58A4A;
+        transform: translateY(-2px);
+    }
+
+    /* Hamburger hover */
+    .hamburger:hover span {
+        background: #B58A4A;
+    }
+}
+

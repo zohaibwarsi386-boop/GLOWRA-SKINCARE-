@@ -1,0 +1,1683 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #F7F3EA;
+}
+nav{ 
+    background-color: #F7F3EA;
+}
+nav a{
+    color: #1C1C18;
+    text-decoration:none;
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+}
+nav a:hover{
+    color: #B58A4A;
+    text-decoration: underline #B58A4A;
+    text-underline-offset: 15px;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+ul{
+left: 1100px;
+top: 40px;
+position: absolute;
+
+}
+
+h1{
+     color: #1C1C18;
+     top: 20px;
+     left: 120px;
+     font-family: "Playfair Display", serif;
+     position: absolute;
+}
+h5{
+    color: #8A7655;
+       top: 55px;
+     left: 120px;
+     font-size: 15px;
+     letter-spacing: 3px;
+     font-family: "Poppins", sans-serif;
+     position: absolute;
+}
+.logo{
+    height: 55px;
+    left: 65px;
+    top: 18px;
+    position: absolute;
+}
+.icon-1{
+    height: 45px;
+    top: 25px;
+    left: 1650px;;
+    position: absolute;
+}
+.icon-2{
+    height: 40px;
+    top: 25px;
+    left: 1730px;;
+    position: absolute;
+}
+.icon-3{
+    height: 45px;
+    top: 20px;
+    left: 1800px;;
+    position: absolute;
+}
+.container{
+  background-color:#f4eee7;
+  height: 1200px;
+  width: 100%;
+  top: 100px;
+  position: absolute;
+}
+.home{
+    color: black;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    text-decoration: none;
+}
+.p-1{
+    color: #1C1C18;
+    left: 43%;
+    font-size: 35px;
+    top: 100px;
+    position: absolute;
+}
+.p-2{
+    color: #706E65;
+    top: 145px;
+    font-family: "poppins",sans-serif;
+    left: 41%;
+    line-height: 25px;
+    position: absolute;
+}
+.p-3{
+    left: 65px;
+    position: absolute;
+}
+.line{
+    background-color: #706E65;
+    width: 35%;
+    height: 2px;
+    top: 350px;
+    left: 650px;
+    position: absolute;
+}
+.skin-1{
+     top: 320px;
+     font-size: 25px;
+    left: 605px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-1{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 580px;
+    position: absolute;
+}
+.skin-2{
+    top: 320px;
+     font-size: 25px;
+    left: 770px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-2{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 715px;
+    position: absolute;
+}
+.skin-3{
+    top: 320px;
+     font-size: 25px;
+    left: 930px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-3{
+    color: #706E65;
+     top: 390px;
+     font-size: 14px;
+    left: 880px;
+    position: absolute;
+}
+.skin-4{
+    top: 320px;
+     font-size: 25px;
+    left: 1100px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-4{
+    color: #706E65;
+     top: 390px;
+     font-size: 15px;
+    left: 1085px;
+    position: absolute;
+}
+.skin-5{
+    top: 320px;
+     font-size: 25px;
+    left: 1300px;
+    background-color: #B58A4A;
+    border-radius: 50%;
+    padding: 10px 15px 15px 15px;
+  
+    border: solid 1px #706E65;
+    position: absolute;
+}
+.head-5{
+    color: #706E65;
+     top: 390px;
+     font-size: 15px;
+    left: 1290px;
+    position: absolute;
+}
+.sec{
+    background-color: #fffbfb;
+    height: 500px;
+    width: 70%;
+    border-radius: 30px;
+    top: 550px;
+    left: 100px;
+    position: absolute;
+}
+.bin-1{
+    top: 40px;
+    left: 500px;
+    position: absolute;
+}
+.bin-2{
+      font-family: "Poppins", sans-serif; 
+    top: 80px;
+    left: 515px;
+    position: absolute;
+    color: #706E65;
+}
+.box-1{
+    left: 130px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-1{
+    left: 205px;
+    height: 75px;
+    top: 200px;
+    position: absolute;
+}
+
+.l-2{
+     left: 180px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+span{
+    left:-15px;
+    position: relative;
+}
+.l-3{
+      font-family: "Poppins", sans-serif; 
+    color: #706E65;
+     left: 180px;
+    height: 75px;
+    top: 320px;
+    position: absolute;
+}
+#l-4{
+     left: 225px;
+    top: 380px;
+    position: absolute;
+}
+
+.box-2{
+     left: 420px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-4{
+  left: 490px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-5{
+     left: 445px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-6{
+    color: #706E65;
+     left: 480px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon{
+    left: -15px;
+    position: relative;
+}
+#l-6{
+      left: 510px;
+    top: 380px;
+    position: absolute;
+}
+.box-3{
+     left: 700px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-7{
+  left: 770px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-8{
+     left: 745px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-9{
+    color: #706E65;
+     left: 740px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon-2{
+    left: 19px;
+    position: relative;
+}
+.spoon-3{
+     left: 34px;
+    position: relative;
+}
+#l-7{
+      left: 800px;
+    top: 380px;
+    position: absolute;
+}
+.box-4{
+     left: 1000px;
+    top: 150px;
+    border-radius: 10px;
+    border: 1px solid #1C1C18;
+    width: 200px;
+    position: absolute;
+    height: 280px;
+    background-color:transparent;
+}
+.l-10{
+  left: 1070px;
+    height: 75px;
+    font-size: 20px;
+    top: 200px;
+    position: absolute;
+}
+.l-11{
+     left: 1080px;
+    height: 75px;
+    font-size: 20px;
+    top: 290px;
+    position: absolute;
+}
+.l-12{
+    color: #706E65;
+     left: 1040px;
+       font-family: "poppins",sans-serif;
+    top: 320px;
+    position: absolute;
+}
+.spoon-4{
+    left: 8px;
+    position: relative;
+}
+
+#l-8{
+      left: 1100px;
+    top: 380px;
+    position: absolute;
+}
+.sec-2{
+ background-color: #fffbfb;
+    height: 750px;
+    width: 20%;
+    border-radius: 30px;
+    top: 430px;
+    left: 1500px;
+    position: absolute;
+}
+.acne-1{
+    width: 360px;
+    left: 50px;
+    font-size: 30px;
+    position: absolute;
+}
+.acne-2{
+    color: #706E65;
+     width: 360px;
+     font-size: 14px;
+        font-family: "poppins",sans-serif;
+    left: 50px;
+    top: 60px;
+    position: absolute;
+
+}
+#acne-2{
+    line-height: 20px;
+    left: 55px;
+    position:absolute;
+}
+.acne-3{
+    background-color: #e9e7e2;
+    height: 70px;
+    width: 270px;
+    top: 120px;
+    border-radius: 20px;
+    left: 50px;
+    position: absolute;
+}
+.acne-4{
+    height: 55px;
+    top: 10px;
+    left: 35px;
+    position: absolute;
+    border-radius: 50%;
+}
+.acne-5{
+left: 100px;
+top: 14px;
+font-size: 15px;
+   font-family: "poppins",sans-serif;
+color: #a58b55;
+position: absolute;
+}
+.acne-6{
+ left: 100px;
+
+ font-weight: 700;
+    font-family: "poppins",sans-serif;;
+top: 40px;
+color: black;
+position: absolute;
+}
+.acne-7{
+    left: 120px;
+
+ font-weight: 700;
+    font-family: "poppins",sans-serif;;
+top: 220px;
+color: black;
+position: absolute;
+}
+.acne-8{
+    left: 35px;
+    border-radius: 10px;
+background-color:#e9e7e2;
+ font-weight: 600;
+ padding: 10px 10px 10px 10px;
+ 
+    font-family: "poppins",sans-serif;;
+top: 270px;
+border: solid 1px #e9e7e2;
+color:#1C1C18;
+position: absolute;
+}
+.acne-9{
+        left: 105px;
+    border-radius: 10px;
+background-color: #e9e7e2;
+ font-weight: 600;
+ padding: 10px 10px 10px 10px;
+ 
+    font-family: "poppins",sans-serif;;
+top: 270px;
+color:#1C1C18;
+position: absolute;
+}
+.acne-10{
+        left: 205px;
+    border-radius: 10px;
+background-color: #e9e7e2;
+ font-weight: 600;
+ padding: 10px 10px 10px 10px;
+ font-size: 15px;
+    font-family: "poppins",sans-serif;;
+top: 270px;
+color:#1C1C18;
+position: absolute;
+}
+.acne-11{
+        left: 80px;
+
+ font-weight: 600;
+    font-family: "poppins",sans-serif;;
+top: 335px;
+color:#1C1C18;
+position: absolute;
+}
+
+.card-1{
+    background-color: white;
+    height: 300px;
+    width: 100px;
+    top: 370px;
+    left: 50px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.card-2{
+    height: 150px;
+    left: 35px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.card-3{
+    top: 170px;
+    left: 75px;
+    width: 360px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+}
+.card-3:hover{
+    color: #a58b55;
+}
+.card-4{
+    top: 195px;
+    left: 70px;
+    width: 360px;
+    color: #706E65;
+      font-family: "poppins",sans-serif;
+    position: absolute;
+}
+
+.card-6{
+     top: 220px;
+    left: 85px;  
+    height: 15px;   
+    position: absolute;
+}
+.acne-12{
+    background-color:#1d2613 ;
+    text-decoration: none;
+    color: white;
+    top: 630px;
+    left: 105px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+}
+.acne-13{
+     background-color:transparent ;
+    text-decoration: none;
+    color: black;
+    border: solid 1px #1C1C18;
+    top: 680px;
+    left: 125px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+}
+
+/* =========================================
+   GLOWRA RESULT PAGE
+   PREMIUM ANIMATION
+   ADD AFTER YOUR ORIGINAL CSS
+========================================= */
+
+
+/* =========================================
+   PAGE ENTRY
+========================================= */
+
+body {
+    animation: pageEnter 0.9s ease both;
+}
+
+@keyframes pageEnter {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+nav {
+    animation: navDrop 0.8s ease both;
+}
+
+@keyframes navDrop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav a {
+    transition:
+        color 0.3s ease,
+        letter-spacing 0.3s ease;
+}
+
+nav a:hover {
+    color: #B58A4A;
+    letter-spacing: 1px;
+}
+
+
+/* LOGO */
+
+.logo {
+    transition:
+        transform 0.4s ease,
+        filter 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.08) rotate(-2deg);
+}
+
+
+/* NAV ICONS */
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    transition:
+        transform 0.35s ease,
+        opacity 0.35s ease;
+}
+
+.icon-1:hover,
+.icon-2:hover,
+.icon-3:hover {
+    transform: translateY(-6px) scale(1.1);
+    opacity: 0.7;
+}
+
+
+/* =========================================
+   TOP CONTAINER
+========================================= */
+
+.container {
+    animation: containerReveal 1s 0.15s ease both;
+}
+
+@keyframes containerReveal {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* BACK HOME */
+
+.home {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.home:hover {
+    color: #B58A4A;
+    transform: translateX(7px);
+}
+
+
+/* =========================================
+   PAGE HEADING
+========================================= */
+
+.p-1 {
+    animation: headingLeft 0.9s 0.3s ease both;
+}
+
+@keyframes headingLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* DESCRIPTION */
+
+.p-2 {
+    animation: textUp 0.9s 0.5s ease both;
+}
+
+@keyframes textUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   PROGRESS LINE
+========================================= */
+
+.line {
+    transform-origin: left;
+
+    animation: lineGrow 1s 0.65s ease both;
+}
+
+@keyframes lineGrow {
+    from {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+/* =========================================
+   PROGRESS CIRCLES
+========================================= */
+
+.skin-1,
+.skin-2,
+.skin-3,
+.skin-4,
+.skin-5 {
+    transition:
+        transform 0.4s ease,
+        background-color 0.35s ease,
+        color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.skin-1:hover,
+.skin-2:hover,
+.skin-3:hover,
+.skin-4:hover,
+.skin-5:hover {
+    transform: translateY(-7px) scale(1.12);
+
+    background-color: #1D2613;
+
+    color: white;
+
+    box-shadow:
+        0 10px 25px rgba(181, 138, 74, 0.25);
+}
+
+
+/* STEP LABELS */
+
+.head-1,
+.head-2,
+.head-3,
+.head-4,
+.head-5 {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.head-1:hover,
+.head-2:hover,
+.head-3:hover,
+.head-4:hover,
+.head-5:hover {
+    color: #B58A4A;
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   QUIZ SECTION
+========================================= */
+
+.sec {
+    animation: quizSection 1s 0.65s cubic-bezier(.2,.8,.2,1) both;
+}
+
+@keyframes quizSection {
+    from {
+        opacity: 0;
+        transform: translateY(55px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   RESULT SECTION
+========================================= */
+
+.sec-2 {
+    animation: resultCardEnter 1.1s 0.8s cubic-bezier(.2,.8,.2,1) both;
+
+    transition:
+        box-shadow 0.5s ease,
+        border-color 0.4s ease;
+}
+
+@keyframes resultCardEnter {
+
+    from {
+        opacity: 0;
+        transform: translateX(80px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+
+}
+
+
+/* RESULT CARD HOVER */
+
+.sec-2:hover {
+    box-shadow:
+        0 20px 50px rgba(28, 28, 24, 0.12);
+}
+
+
+/* =========================================
+   RESULT HEADING
+========================================= */
+
+.acne-1 {
+    animation: acneHeading 0.9s 1s ease both;
+}
+
+@keyframes acneHeading {
+
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   RESULT DESCRIPTION
+========================================= */
+
+.acne-2 {
+    animation: acneDescription 0.8s 1.15s ease both;
+}
+
+@keyframes acneDescription {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   SKIN TYPE RESULT
+========================================= */
+
+.acne-3 {
+    animation: skinResult 0.8s 1.3s ease both;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease,
+        background-color 0.35s ease;
+}
+
+@keyframes skinResult {
+
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+.acne-3:hover {
+    transform: translateY(-7px);
+
+    background-color: #F1EEE8;
+
+    box-shadow:
+        0 10px 25px rgba(28, 28, 24, 0.10);
+}
+
+
+/* SKIN IMAGE */
+
+.acne-4 {
+    transition:
+        transform 0.5s ease,
+        filter 0.4s ease;
+}
+
+.acne-3:hover .acne-4 {
+    transform: scale(1.12) rotate(3deg);
+
+    filter: brightness(1.05);
+}
+
+
+/* SKIN TYPE TEXT */
+
+.acne-5,
+.acne-6 {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.acne-3:hover .acne-5 {
+    color: #B58A4A;
+}
+
+.acne-3:hover .acne-6 {
+    transform: translateX(4px);
+}
+
+
+/* =========================================
+   TOP CONCERNS
+========================================= */
+
+.acne-7 {
+    animation: concernTitle 0.8s 1.45s ease both;
+}
+
+@keyframes concernTitle {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* CONCERN TAGS */
+
+.acne-8,
+.acne-9,
+.acne-10 {
+    cursor: pointer;
+
+    transition:
+        transform 0.35s ease,
+        background-color 0.35s ease,
+        color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.acne-8:hover,
+.acne-9:hover,
+.acne-10:hover {
+    background-color: #B58A4A;
+
+    color: white;
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 18px rgba(181, 138, 74, 0.20);
+}
+
+
+/* =========================================
+   ROUTINE HEADING
+========================================= */
+
+.acne-11 {
+    animation: routineTitle 0.8s 1.6s ease both;
+}
+
+@keyframes routineTitle {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* =========================================
+   PRODUCT CARD
+========================================= */
+
+
+
+@keyframes productCard {
+
+    from {
+        opacity: 0;
+        transform: translateY(35px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+}
+
+
+
+
+
+
+
+/* PRODUCT TITLE */
+
+.card-3 {
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.card-3:hover {
+    color: #B58A4A;
+
+    transform: translateX(4px);
+}
+
+
+/* PRODUCT DESCRIPTION */
+
+.card-4 {
+    transition:
+        color 0.3s ease;
+}
+
+.card-1:hover .card-4 {
+    color: #5F5B52;
+}
+
+
+/* RATING */
+
+.card-6 {
+    transition:
+        transform 0.35s ease;
+}
+
+.card-1:hover .card-6 {
+    transform: scale(1.12);
+}
+
+
+/* =========================================
+   SHOP ROUTINE BUTTON
+========================================= */
+
+.acne-12 {
+    transition:
+        transform 0.4s ease,
+        background-color 0.35s ease,
+        box-shadow 0.4s ease,
+        letter-spacing 0.3s ease;
+}
+
+.acne-12:hover {
+    background-color: #B58A4A;
+
+    transform: translateY(-6px);
+
+    letter-spacing: 0.4px;
+
+    box-shadow:
+        0 12px 25px rgba(181, 138, 74, 0.25);
+}
+
+
+/* =========================================
+   RETAKE QUIZ
+========================================= */
+
+.acne-13 {
+    transition:
+        transform 0.35s ease,
+        color 0.35s ease,
+        border-color 0.35s ease,
+        background-color 0.35s ease;
+}
+
+.acne-13:hover {
+    color: #B58A4A;
+
+    border-color: #B58A4A;
+
+    background-color: #FBF7EF;
+
+    transform: translateY(-5px);
+}
+
+
+/* =========================================
+   SMOOTH FOCUS
+========================================= */
+
+.acne-12:focus,
+.acne-13:focus {
+    outline: 2px solid #B58A4A;
+    outline-offset: 4px;
+}
+
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+
+}
+/* =========================================
+   HAMBURGER DEFAULT
+========================================= */
+
+.hamburger {
+    display: none;
+}
+
+
+/* =========================================
+   RESULT PAGE - 768px RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    nav {
+        height: 85px;
+        width: 100%;
+        position: relative;
+        background: #F7F3EA;
+        z-index: 9999;
+    }
+
+.logo {
+        top: 18px;
+        left: 20px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+}
+    nav h1 {
+        position: absolute;
+        left:60px;
+        top: 20px;
+        font-size: 25px;
+    }
+
+    nav h5 {
+        position: absolute;
+        left: 60px;
+        top: 50px;
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+
+    /* Desktop icons hide */
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        display: none;
+    }
+
+
+    /* =========================
+       HAMBURGER
+    ========================= */
+
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 21px;
+        width: 34px;
+        height: 30px;
+        padding: 0;
+        border: none;
+        background: transparent;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 10001;
+    }
+
+    .hamburger span {
+        width: 34px;
+        height: 3px;
+        background: #1C1C18;
+        border-radius: 5px;
+        display: block;
+        transition: 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(13px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-14px) rotate(-45deg);
+    }
+
+
+    /* =========================
+       MOBILE MENU
+    ========================= */
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        padding: 15px 0;
+        margin: 0;
+        background: #F7F3EA;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 12px 0;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+
+    /* =========================
+       HERO CONTAINER
+    ========================= */
+
+    .container {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        height: 320px;
+    }
+
+    .home {
+        top: 25px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+    .p-1 {
+        top: 85px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .p-2 {
+        top: 140px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .p-2 br {
+        display: none;
+    }
+
+    .p-3 {
+        position: static;
+        left: auto;
+    }
+
+
+    /* =========================
+       PROGRESS
+    ========================= */
+
+    .line {
+        position: absolute;
+        top: 415px;
+        left: 10%;
+        width: 80%;
+        height: 2px;
+    }
+
+    .box {
+        position: absolute;
+        top: 395px;
+        left: 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    .skin-1,
+    .skin-2,
+    .skin-3,
+    .skin-4,
+    .skin-5 {
+        top: 0;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .skin-1 {
+        left: 5%;
+    }
+
+    .skin-2 {
+        left: 28%;
+    }
+
+    .skin-3 {
+        left: 48%;
+    }
+
+    .skin-4 {
+        left: 68%;
+    }
+
+    .skin-5 {
+        left: 88%;
+    }
+
+    .head-1,
+    .head-2,
+    .head-3,
+    .head-4,
+    .head-5 {
+        top: 42px;
+        font-size: 8px;
+    }
+
+    .head-1 {
+        left: 1%;
+    }
+
+    .head-2 {
+        left: 20%;
+    }
+
+    .head-3 {
+        left: 38%;
+        font-size: 8px;
+    }
+
+    .head-4 {
+        left: 68%;
+    }
+
+    .head-5 {
+        left: 85%;
+    }
+
+
+    /* =========================
+       OLD QUIZ SECTION HIDE
+    ========================= */
+
+    .sec {
+        display: none;
+    }
+
+
+    /* =========================
+       RESULT SECTION
+    ========================= */
+
+    .sec-2 {
+        position: absolute;
+        top: 500px;
+        left: 5%;
+        width: 90%;
+        height: 920px;
+        border-radius: 25px;
+    }
+
+
+    /* =========================
+       RESULT HEADING
+    ========================= */
+
+    .acne-1 {
+        top: 30px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .acne-2 {
+        top: 82px;
+        left: 5%;
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .acne-2 br {
+        display: none;
+    }
+
+    #acne-2 {
+        position: static;
+        left: auto;
+    }
+
+
+    /* =========================
+       SKIN TYPE
+    ========================= */
+
+    .acne-3 {
+        top: 145px;
+        left: 7%;
+        width: 86%;
+        height: 120px;
+        border-radius: 18px;
+    }
+
+    .acne-4 {
+        top: 12px;
+        left: 20px;
+        height: 95px;
+        width: 95px;
+        object-fit: cover;
+    }
+
+    .acne-5 {
+        left: 130px;
+        top: 27px;
+        font-size: 12px;
+    }
+
+    .acne-6 {
+        left: 130px;
+        top: 55px;
+        font-size: 19px;
+    }
+
+
+    /* =========================
+       TOP CONCERN
+    ========================= */
+
+    .acne-7 {
+        top: 295px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .acne-8,
+    .acne-9,
+    .acne-10 {
+        top: 345px;
+        font-size: 15px;
+        padding: 9px 10px;
+        border-radius: 10px;
+    
+    }
+
+    .acne-8 {
+        left: 5%;
+    }
+
+    .acne-9 {
+        left: 30%;
+    }
+
+    .acne-10 {
+        left: 61%;
+    }
+
+
+    /* =========================
+       ROUTINE HEADING
+    ========================= */
+
+    .acne-11 {
+        top: 415px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    /* =========================
+       PRODUCT CARD
+    ========================= */
+
+    .card-1 {
+        top: 470px;
+        left: 7%;
+        width: 86%;
+        height: 290px;
+        border-radius: 15px;
+    }
+
+    .card-2 {
+        top: 10px;
+        left: calc(50% - 90px);
+        width: 180px;
+        height: 135px;
+        object-fit: cover;
+    }
+
+    .card-3 {
+        top: 155px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .card-4 {
+        top: 190px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .card-6 {
+        top: 225px;
+        left: calc(45% - 25px);
+        height: 15px;
+    }
+
+
+    /* =========================
+       SHOP BUTTON
+    ========================= */
+
+    .acne-12 {
+        top: 760px;
+        left: 10%;
+        width: 80%;
+        padding: 13px 10px;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+
+    /* =========================
+       RETAKE BUTTON
+    ========================= */
+
+    .acne-13 {
+        top: 820px;
+        left: 10%;
+        width: 80%;
+        padding: 13px 10px;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+
+    /* =========================
+       HOVER FIX
+    ========================= */
+
+    .acne-8:hover,
+    .acne-9:hover,
+    .acne-10:hover {
+        transform: translateY(-4px);
+    }
+
+    .acne-12:hover {
+        transform: translateY(-4px);
+    }
+
+    .acne-13:hover {
+        transform: translateY(-4px);
+    }
+}
