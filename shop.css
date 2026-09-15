@@ -2457,3 +2457,517 @@ height: 45px;
         font-size: 11px;
     }
 }
+/* =====================================================
+   GLOWRA SHOP — LAPTOP RESPONSIVE
+   1024px to 1400px
+===================================================== */
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    /* ================= NAVBAR ================= */
+
+    nav {
+        height: 80px;
+        position: relative;
+    }
+
+      nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+    nav ul {
+        left: auto;
+        right: 45px;
+        top: 32px;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+
+
+    /* ================= TOP ICONS ================= */
+
+    .icon-1 {
+        height: 30px;
+        left: auto;
+        right: 115px;
+        top: 25px;
+         display: none;
+    }
+
+    .icon-2 {
+        height: 28px;
+        left: auto;
+        right: 70px;
+        top: 26px;
+         display: none;
+    }
+
+    .icon-3 {
+        height: 30px;
+        left: auto;
+        right: 25px;
+        top: 23px;
+        display: none;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero-image {
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 570px;
+        object-fit: cover;
+    }
+
+    .hero-head {
+        top: 175px;
+        left: 78px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .hero-head-2 {
+        top: 220px;
+        left: 78px;
+        font-size: 46px;
+        line-height: 1.15;
+    }
+
+    .line {
+        top: 385px;
+        left: 78px;
+        width: 90px;
+    }
+
+    .para-hero {
+        top: 420px;
+        left: 78px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+
+    /* ================= BENEFITS ================= */
+
+    .section-1 {
+        top: 500px;
+        left: 35px;
+        width: 36%;
+        height: 135px;
+    }
+
+    .zuhaib-image-1 {
+        top: 530px;
+        left: 70px;
+        height: 48px;
+    }
+
+    .zuhaib-image-2 {
+        top: 530px;
+        left: 225px;
+        height: 55px;
+    }
+
+    .zuhaib-image-3 {
+        top: 530px;
+        left: 355px;
+        height: 55px;
+    }
+
+    .heading-1 {
+        top: 580px;
+        left: 82px;
+        font-size: 14px;
+    }
+
+    .heading-2 {
+        top: 580px;
+        left: 205px;
+        font-size: 14px;
+    }
+
+    .heading-3 {
+        top: 580px;
+        left: 355px;
+        font-size: 15px;
+    }
+
+    .heading-4 {
+        top: 625px;
+        left: 480px;
+        font-size: 15px;
+    }
+
+
+    /* ================= FILTER ================= */
+
+    .filter {
+        top: 755px;
+        left: 40px;
+        font-size: 16px;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        top: 750px;
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+
+    .box-1 {
+        left: 125px;
+    }
+
+    .box-6 {
+        left: 275px;
+    }
+
+    .box-2 {
+        left: 425px;
+    }
+
+    .box-3 {
+        left: 575px;
+    }
+
+    .box-4 {
+        left: 725px;
+    }
+
+    .sort {
+        top: 755px;
+        left: 900px;
+        font-size: 16px;
+    }
+
+    .box-5 {
+        left: 970px;
+    }
+
+
+    /* =================================================
+       FIRST PRODUCT ROW
+    ================================================= */
+
+    .card-1,
+    .card-7,
+    .card-13,
+    .card-19 {
+        top: 850px;
+        width: 235px;
+        height: 425px;
+    }
+
+    .card-1 {
+        left: 45px;
+    }
+
+    .card-7 {
+        left: 335px;
+    }
+
+    .card-13 {
+        left: 625px;
+        width: 235px;
+    }
+
+    .card-19 {
+        left: 915px;
+        width: 235px;
+    }
+
+
+    /* PRODUCT IMAGES */
+
+    .card-2,
+    .card-8,
+    .card-14,
+    .card-20 {
+        width: 233px;
+        height: 215px;
+        object-fit: cover;
+    }
+
+
+    /* PRODUCT TEXT */
+
+    .card-3,
+    .card-9,
+    .card-15,
+    .card-21 {
+        top: 245px;
+        left: 18px;
+        font-size: 15px;
+    }
+
+    .card-4,
+    .card-10,
+    .card-16,
+    .card-22 {
+        top: 275px;
+        left: 18px;
+        font-size: 12px;
+    }
+
+    .card-5,
+    .card-11,
+    .card-17,
+    .card-23 {
+        top: 305px;
+        left: 18px;
+        font-size: 15px;
+    }
+
+    .card-6,
+    .card-12,
+    .card-18,
+    .card-24 {
+        top: 335px;
+        left: 18px;
+        height: 13px;
+    }
+
+
+    /* ADD TO CART */
+
+    .card-25,
+    .card-26,
+    .card-27,
+    .card-28 {
+        top: 365px;
+        left: 18px;
+        height: auto;
+        padding: 9px 20px;
+        font-size: 12px;
+    }
+
+
+    /* =================================================
+       SECOND PRODUCT ROW
+    ================================================= */
+
+    .cart-1,
+    .cart-7,
+    .cart-13,
+    .cart-19 {
+        top: 1320px;
+        width: 235px;
+        height: 425px;
+    }
+
+    .cart-1 {
+        left: 45px;
+    }
+
+    .cart-7 {
+        left: 335px;
+    }
+
+    .cart-13 {
+        left: 625px;
+        width: 235px;
+    }
+
+    .cart-19 {
+        left: 915px;
+        width: 235px;
+    }
+
+
+    /* SECOND ROW IMAGES */
+
+    .cart-2,
+    .cart-8,
+    .cart-14,
+    .cart-20 {
+        width: 233px;
+        height: 215px;
+        object-fit: cover;
+    }
+
+
+    /* SECOND ROW TEXT */
+
+    .cart-3,
+    .cart-9,
+    .cart-15,
+    .cart-21 {
+        top: 245px;
+        left: 18px;
+        font-size: 15px;
+    }
+
+    .cart-4,
+    .cart-10,
+    .cart-16,
+    .cart-22 {
+        top: 275px;
+        left: 18px;
+        font-size: 12px;
+    }
+
+    .cart-5,
+    .cart-11,
+    .cart-17,
+    .cart-23 {
+        top: 305px;
+        left: 18px;
+        font-size: 15px;
+    }
+
+    .cart-6,
+    .cart-12,
+    .cart-18,
+    .cart-24 {
+        top: 335px;
+        left: 18px;
+        height: 13px;
+    }
+
+    .cart-25,
+    .cart-26,
+    .cart-27,
+    .cart-28 {
+        top: 365px;
+        left: 18px;
+        height: auto;
+        padding: 9px 20px;
+        font-size: 12px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        top: 1800px;
+        height: 500px;
+    }
+
+    
+     .logo-1 {
+        left: 45px;
+        top: 55px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 110px;
+        top: 60px;
+    }
+
+    .filter-2 {
+        left: 110px;
+        top: 95px;
+        font-size: 13px;
+    }
+
+    .filter-3 {
+        left: 60px;
+        top: 145px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon {
+        left: 35px;
+        top: 200px;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 520px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 740px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 970px;
+    }
+
+    .m-21 {
+        left: 950px;
+        width: 170px;
+        top: 300px;
+    }
+
+    .m-22 {
+        left: 1090px;
+        top: 300px;
+        
+    }
+
+    .line-m {
+        left: 6%;
+        width: 88%;
+        top: 380px;
+    }
+
+    .copyright {
+        left: 6%;
+        top: 420px;
+        font-size: 13px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 420px;
+    }
+
+    .police-2 {
+        left: 77%;
+        top: 420px;
+    }
+
+    .police-3 {
+        left: 89%;
+        top: 420px;
+    }
+}

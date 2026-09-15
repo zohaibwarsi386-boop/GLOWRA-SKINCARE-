@@ -1,98 +1,116 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-     background-color: #F7F3EA;
-}
-nav{ 
+
+body {
     background-color: #F7F3EA;
 }
-nav a{
-    color: #1C1C18;
-    text-decoration:none;
-     font-family: "Poppins", sans-serif;
-     font-size: 18px;
+
+nav {
+    background-color: #F7F3EA;
 }
-nav a:hover{
+
+nav a {
+    color: #1C1C18;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+nav a:hover {
     color: #B58A4A;
     text-decoration: underline #B58A4A;
     text-underline-offset: 15px;
 }
-li{
+
+li {
     display: inline;
     padding: 20px;
 }
-ul{
-left: 1100px;
-top: 40px;
-position: absolute;
+
+ul {
+    left: 1100px;
+    top: 40px;
+    position: absolute;
 
 }
 
-h1{
-     color: #1C1C18;
-     top: 20px;
-     left: 120px;
-     font-family: "Playfair Display", serif;
-     position: absolute;
+h1 {
+    color: #1C1C18;
+    top: 20px;
+    left: 120px;
+    font-family: "Playfair Display", serif;
+    position: absolute;
 }
-h5{
+
+h5 {
     color: #8A7655;
-       top: 55px;
-     left: 120px;
-     font-size: 15px;
-     letter-spacing: 3px;
-     font-family: "Poppins", sans-serif;
-     position: absolute;
+    top: 55px;
+    left: 120px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
 }
-.logo{
+
+.logo {
     height: 55px;
     left: 65px;
     top: 18px;
     position: absolute;
 }
-.icon-1{
+
+.icon-1 {
     height: 45px;
     top: 25px;
-    left: 1650px;;
+    left: 1650px;
+    ;
     position: absolute;
 }
-.icon-2{
+
+.icon-2 {
     height: 40px;
     top: 25px;
-    left: 1730px;;
+    left: 1730px;
+    ;
     position: absolute;
 }
-.icon-3{
+
+.icon-3 {
     height: 45px;
     top: 20px;
-    left: 1800px;;
+    left: 1800px;
+    ;
     position: absolute;
 }
-.hero-image{
+
+.hero-image {
     left: 0%;
     top: 100px;
     width: 100%;
     height: 500px;
-    position:absolute
+    position: absolute
 }
+
 .hero-head {
     color: #B58A4A;
     top: 190px;
     letter-spacing: 2px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.hero-head-2{
+
+.hero-head-2 {
     color: #1C1C18;
     top: 240px;
     font-size: 55px;
     position: absolute;
-      font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
 }
-.line{
+
+.line {
     background-color: #B58A4A;
     height: 2px;
     width: 110px;
@@ -100,17 +118,19 @@ h5{
     left: 120px;
     position: absolute;
 }
-.para-hero{
+
+.para-hero {
     color: #706E65;
     top: 440px;
-    position: absolute; 
+    position: absolute;
     left: 120px;
     font-size: 18px;
     line-height: 35px;
-       font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.con{
-    background-color:#1d2613;
+
+.con {
+    background-color: #1d2613;
     height: 150px;
     width: 58%;
     top: 650px;
@@ -118,48 +138,53 @@ h5{
     border-radius: 30px;
     position: absolute;
 }
-.moisturizer-1{
+
+.moisturizer-1 {
     color: white;
     left: 60px;
     top: 70px;
     font-size: 20px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.moisturizer-2{
-   color: white;
+
+.moisturizer-2 {
+    color: white;
     left: 270px;
     top: 70px;
     font-size: 20px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.moisturizer-3{
-       color: white;
+
+.moisturizer-3 {
+    color: white;
     left: 470px;
     top: 70px;
     font-size: 20px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.moisturizer-4{
-       color: white;
+
+.moisturizer-4 {
+    color: white;
     left: 700px;
     top: 70px;
     font-size: 20px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.moisturizer-5{
-       color: white;
+
+.moisturizer-5 {
+    color: white;
     left: 930px;
     top: 70px;
     font-size: 20px;
     position: absolute;
-         font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
-.card-1{
+.card-1 {
     background-color: white;
     height: 460px;
     width: 270px;
@@ -169,7 +194,8 @@ h5{
     border-radius: 10px;
     position: absolute;
 }
-.card-2{
+
+.card-2 {
     height: 250px;
     left: 2px;
     width: 264px;
@@ -177,216 +203,233 @@ h5{
     position: absolute;
 }
 
-.card-3{
+.card-3 {
     top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.card-4{
+.card-4 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.card-5{
+
+.card-5 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.card-6{
-     top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.card-6 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-25{
+
+.card-25 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-7{
-    left:560px ;
+
+.card-7 {
+    left: 560px;
     position: absolute;
     background-color: white;
     height: 460px;
     width: 270px;
     top: 900px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     border-radius: 10px;
     position: absolute;
 }
 
-.card-8{
-     height: 250px;
+.card-8 {
+    height: 250px;
     left: 1px;
     width: 267px;
     border-radius: 10px;
     position: absolute;
 }
 
-.card-9{
+.card-9 {
     top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.card-10{
-      top: 310px;
+.card-10 {
+    top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.card-11{
-     top: 340px;
+
+.card-11 {
+    top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.card-12{
-     top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.card-12 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-26{
+
+.card-26 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-13{
+
+.card-13 {
     background-color: white;
     height: 460px;
     top: 900px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     left: 980px;
     width: 272px;
     border-radius: 10px;
     position: absolute;
 }
-.card-14{
-  height: 252px;
+
+.card-14 {
+    height: 252px;
     left: 0px;
     width: 268px;
     border-radius: 10px;
     position: absolute;
 }
 
-.card-15{
- top: 280px;
+.card-15 {
+    top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.card-16{
+.card-16 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.card-17{
+
+.card-17 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.card-18{
-      top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.card-18 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-27{
+
+.card-27 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-19{
+
+.card-19 {
     background-color: white;
     height: 460px;
     top: 900px;
     left: 1400px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     width: 272px;
     border-radius: 10px;
     position: absolute;
 }
 
-.card-20{
-  height: 250px;
+.card-20 {
+    height: 250px;
     left: 1px;
     width: 267px;
     border-radius: 10px;
     position: absolute;
 }
 
-.card-21{
- top: 280px;
+.card-21 {
+    top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.card-22{
+.card-22 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.card-23{
+
+.card-23 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.card-24{
-      top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.card-24 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.card-28{
+
+.card-28 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-1{
+
+.cart-1 {
     background-color: white;
     height: 460px;
     width: 270px;
@@ -397,7 +440,7 @@ h5{
     position: absolute;
 }
 
-.cart-2{
+.cart-2 {
     height: 250px;
     left: 2px;
     width: 264px;
@@ -405,216 +448,233 @@ h5{
     position: absolute;
 }
 
-.cart-3{
+.cart-3 {
     top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.cart-4{
+.cart-4 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.cart-5{
+
+.cart-5 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.cart-6{
-     top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.cart-6 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-25{
+
+.cart-25 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-7{
-    left:560px ;
+
+.cart-7 {
+    left: 560px;
     position: absolute;
     background-color: white;
     height: 460px;
     width: 270px;
     top: 1400px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     border-radius: 10px;
     position: absolute;
 }
 
-.cart-8{
-     height: 250px;
+.cart-8 {
+    height: 250px;
     left: 1px;
     width: 267px;
     border-radius: 10px;
     position: absolute;
 }
 
-.cart-9{
+.cart-9 {
     top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.cart-10{
-      top: 310px;
+.cart-10 {
+    top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.cart-11{
-     top: 340px;
+
+.cart-11 {
+    top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.cart-12{
-     top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.cart-12 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-26{
+
+.cart-26 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-13{
+
+.cart-13 {
     background-color: white;
     height: 460px;
     top: 1400px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     left: 980px;
     width: 272px;
     border-radius: 10px;
     position: absolute;
 }
-.cart-14{
-  height: 252px;
+
+.cart-14 {
+    height: 252px;
     left: 0px;
     width: 268px;
     border-radius: 10px;
     position: absolute;
 }
 
-.cart-15{
- top: 280px;
+.cart-15 {
+    top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.cart-16{
+.cart-16 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.cart-17{
+
+.cart-17 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.cart-18{
-      top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.cart-18 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-27{
+
+.cart-27 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-19{
+
+.cart-19 {
     background-color: white;
     height: 460px;
     top: 1400px;
     left: 1400px;
-        border: solid 1px #1C1C18;
+    border: solid 1px #1C1C18;
     width: 272px;
     border-radius: 10px;
     position: absolute;
 }
 
-.cart-20{
-  height: 250px;
+.cart-20 {
+    height: 250px;
     left: 1px;
     width: 267px;
     border-radius: 10px;
     position: absolute;
 }
 
-.cart-21{
- top: 280px;
+.cart-21 {
+    top: 280px;
     left: 20px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
 
-.cart-22{
+.cart-22 {
     top: 310px;
     left: 20px;
     color: #706E65;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.cart-23{
+
+.cart-23 {
     top: 340px;
     left: 20px;
-  font-size: 18px;
-       font-family: "poppins",sans-serif;
+    font-size: 18px;
+    font-family: "poppins", sans-serif;
     position: absolute
 }
-.cart-24{
-      top: 370px;
-    left: 20px;  
-    height: 15px;   
+
+.cart-24 {
+    top: 370px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.cart-28{
+
+.cart-28 {
     background-color: #1d2613;
     border: #1d2613;
-     top: 400px;
-     color: white;
-     padding: 10px 25px 25px 25px;
-     border-radius: 10px;
-    left: 20px;  
-    height: 15px;   
+    top: 400px;
+    color: white;
+    padding: 10px 25px 25px 25px;
+    border-radius: 10px;
+    left: 20px;
+    height: 15px;
     position: absolute;
 }
-.load{
+
+.load {
     background-color: #1d2613;
     color: white;
     padding: 15px 30px 15px 30px;
@@ -624,7 +684,8 @@ h5{
     position: absolute;
     border-radius: 10px;
 }
-.back{
+
+.back {
     background-color: #F7F3EA;
     height: 250px;
     width: 90%;
@@ -633,330 +694,371 @@ h5{
     border-radius: 20px;
     position: absolute;
 }
-.img-1{
+
+.img-1 {
     top: 20px;
     left: 200px;
     height: 110px;
     position: absolute;
 }
-.img-2{
+
+.img-2 {
     color: black;
     top: 150px;
     left: 210px;
-     font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.img-3{
+
+.img-3 {
     color: #706E65;
-  top: 180px;
+    top: 180px;
     left: 200px;
-     font-family: "poppins",sans-serif;
-    position: absolute;   
+    font-family: "poppins", sans-serif;
+    position: absolute;
 }
-.img-4{
-     top: 20px;
+
+.img-4 {
+    top: 20px;
     left: 600px;
     height: 110px;
     position: absolute;
 }
-.img-5{
+
+.img-5 {
     color: black;
-     top: 150px;
+    top: 150px;
     left: 600px;
-     font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.img-6{
-     color: #706E65;
-  top: 180px;
+
+.img-6 {
+    color: #706E65;
+    top: 180px;
     left: 580px;
-     font-family: "poppins",sans-serif;
-    position: absolute; 
+    font-family: "poppins", sans-serif;
+    position: absolute;
 }
-.img-7{
-top: 20px;
+
+.img-7 {
+    top: 20px;
     left: 1050px;
     height: 110px;
     position: absolute;
 }
-.img-8{
-      color: black;
-     top: 150px;
+
+.img-8 {
+    color: black;
+    top: 150px;
     left: 1055px;
-     font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.img-9{
-     color: #706E65;
-  top: 180px;
+
+.img-9 {
+    color: #706E65;
+    top: 180px;
     left: 1040px;
-     font-family: "poppins",sans-serif;
-    position: absolute; 
+    font-family: "poppins", sans-serif;
+    position: absolute;
 }
-.img-10{
+
+.img-10 {
     top: 20px;
     left: 1460px;
     height: 110px;
     position: absolute;
 }
-.img-11{
+
+.img-11 {
     color: black;
-     top: 150px;
+    top: 150px;
     left: 1470px;
-     font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     position: absolute;
 }
-.img-12{
-     color: #706E65;
-  top: 180px;
+
+.img-12 {
+    color: #706E65;
+    top: 180px;
     left: 1455px;
-     font-family: "poppins",sans-serif;
-    position: absolute; 
+    font-family: "poppins", sans-serif;
+    position: absolute;
 }
-.footer{
-    background-color:#242b1b;
+
+.footer {
+    background-color: #242b1b;
     height: 500px;
     width: 100%;
     top: 2390px;
     position: absolute;
 }
-.logo-1{
+
+.logo-1 {
     left: 120px;
     top: 60px;
     height: 65px;
     position: absolute;
 }
-.filter-1{
+
+.filter-1 {
     color: white;
     left: 190px;
     top: 65px;
     position: absolute;
 }
-.filter-2{
+
+.filter-2 {
     color: #8A7655;
-       font-family: "poppins",sans-serif;
-       letter-spacing: 2px;
-       left: 190px;
-       top: 105px;
-       position: absolute;
-    
+    font-family: "poppins", sans-serif;
+    letter-spacing: 2px;
+    left: 190px;
+    top: 105px;
+    position: absolute;
+
 }
-.filter-3{
+
+.filter-3 {
     left: 130px;
     top: 160px;
     font-size: 20px;
     line-height: 35px;
     color: #706E65;
     position: absolute;
-         font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
 }
-.icon{
+
+.icon {
     top: 250px;
     left: 100px;
     position: absolute;
 }
-.m-1{
+
+.m-1 {
     color: white;
     top: 70px;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-2{
-     color: #706E65;
+
+.m-2 {
+    color: #706E65;
     top: 120px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-3{
+
+.m-3 {
     color: #706E65;
     top: 160px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-4{
-     color: #706E65;
+
+.m-4 {
+    color: #706E65;
     top: 200px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-5{
-     color: #706E65;
+
+.m-5 {
+    color: #706E65;
     top: 240px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-6{
-         color: #706E65;
+
+.m-6 {
+    color: #706E65;
     top: 280px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 600px;
     font-size: 20px;
     position: absolute;
 }
-.m-7{
-     color: white;
+
+.m-7 {
+    color: white;
     top: 70px;
     left: 900px;
     font-size: 20px;
     position: absolute;
 }
-.m-8{
-      color: #706E65;
+
+.m-8 {
+    color: #706E65;
     top: 120px;
-      font-family: "poppins",sans-serif;
-    left: 900px;
-    font-size: 20px;
-    position: absolute;
-     text-transform: capitalize;
-}
-.m-9{
-     color: #706E65;
-    top: 160px;
-      font-family: "poppins",sans-serif;
-    left: 900px;
-    font-size: 20px;
-    position: absolute;
-     text-transform: capitalize;
-}
-.m-10{
-     color: #706E65;
-    top: 200px;
-      font-family: "poppins",sans-serif;
-    left: 900px;
-    font-size: 20px;
-    position: absolute;
-     text-transform: capitalize;
-}
-.m-11{
-     color: #706E65;
-    top: 240px;
-      font-family: "poppins",sans-serif;
-    left: 900px;
-    font-size: 20px;
-    position: absolute;
-     text-transform: capitalize;
-}
-.m-12{
-     color: #706E65;
-    top: 280px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 900px;
     font-size: 20px;
     position: absolute;
     text-transform: capitalize;
 }
-.m-13{
-     color: white;
+
+.m-9 {
+    color: #706E65;
+    top: 160px;
+    font-family: "poppins", sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.m-10 {
+    color: #706E65;
+    top: 200px;
+    font-family: "poppins", sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.m-11 {
+    color: #706E65;
+    top: 240px;
+    font-family: "poppins", sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.m-12 {
+    color: #706E65;
+    top: 280px;
+    font-family: "poppins", sans-serif;
+    left: 900px;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+}
+
+.m-13 {
+    color: white;
     top: 70px;
     left: 1200px;
     font-size: 20px;
     position: absolute;
 }
-.m-14{
- color: #706E65;
+
+.m-14 {
+    color: #706E65;
     top: 120px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1200px;
     font-size: 20px;
     position: absolute;
-     text-transform: capitalize;    
+    text-transform: capitalize;
 }
-.m-15{
+
+.m-15 {
     color: #706E65;
     top: 160px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1200px;
     font-size: 20px;
     position: absolute;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-16{
+
+.m-16 {
     color: #706E65;
     top: 240px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1200px;
     font-size: 20px;
     position: absolute;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-18{
-     color: #706E65;
+
+.m-18 {
+    color: #706E65;
     top: 200px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1200px;
     font-size: 20px;
     position: absolute;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-17{
-     color: #706E65;
+
+.m-17 {
+    color: #706E65;
     top: 280px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1200px;
     font-size: 20px;
     position: absolute;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-19{
-  color: white;
+
+.m-19 {
+    color: white;
     top: 70px;
     left: 1580px;
     font-size: 20px;
-    position: absolute;  
+    position: absolute;
 }
-.m-20{
-     color: #706E65;
+
+.m-20 {
+    color: #706E65;
     top: 120px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1580px;
     font-size: 20px;
     position: absolute;
     line-height: 35px;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-21{
-     color: #706E65;
+
+.m-21 {
+    color: #706E65;
     top: 240px;
     text-align: left;
     left: 50px;
     padding: 5px;
     padding-left: 10px;
     border-radius: 10px;
-      font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1580px;
     font-size: 20px;
     position: absolute;
-     border: transparent;
+    border: transparent;
     line-height: 35px;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.m-22{
+
+.m-22 {
     background-color: #1d2613;
-         color: white;
+    color: white;
     top: 240px;
     border: transparent;
     padding: 5px;
     padding-left: 10px;
     padding-bottom: 5px;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     left: 1804px;
-   border-bottom-right-radius: 10px;
-      border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     font-size: 20px;
     position: absolute;
     line-height: 35px;
-     text-transform: capitalize;
+    text-transform: capitalize;
 }
-.line-m{
+
+.line-m {
     background-color: #706E65;
     width: 90%;
     height: 2px;
@@ -964,34 +1066,39 @@ top: 20px;
     left: 125px;
     position: absolute;
 }
-.copyright{
+
+.copyright {
     color: #706E65;
-    font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     top: 420px;
     left: 125px;
     position: absolute;
 }
-.police-1{
+
+.police-1 {
     color: #706E65;
-     font-family: "poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     top: 420px;
     left: 1400px;
     position: absolute;
 }
-.police-2{
-      color: #706E65;
-     font-family: "poppins",sans-serif;
+
+.police-2 {
+    color: #706E65;
+    font-family: "poppins", sans-serif;
     top: 420px;
     left: 1550px;
     position: absolute;
 }
-.police-3{
-      color: #706E65;
-     font-family: "poppins",sans-serif;
+
+.police-3 {
+    color: #706E65;
+    font-family: "poppins", sans-serif;
     top: 420px;
     left: 1730px;
     position: absolute;
 }
+
 /* =========================================
    GLOWRA PRODUCT PAGE - PREMIUM ANIMATION
    ========================================= */
@@ -1005,6 +1112,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -1184,9 +1292,9 @@ nav a:hover {
 .cart-19 {
 
     overflow: hidden;
-transform: translateY(-3px);
+    transform: translateY(-3px);
     transition:
-        transform 0.45s cubic-bezier(.2,.8,.2,1),
+        transform 0.45s cubic-bezier(.2, .8, .2, 1),
         box-shadow 0.45s ease,
         border-color 0.3s ease;
 }
@@ -1226,7 +1334,7 @@ transform: translateY(-3px);
 .cart-20 {
 
     transition:
-        transform 0.7s cubic-bezier(.2,.8,.2,1),
+        transform 0.7s cubic-bezier(.2, .8, .2, 1),
         filter 0.5s ease;
 }
 
@@ -1303,7 +1411,7 @@ transform: translateY(-3px);
 .cart-13:hover .cart-17,
 .cart-19:hover .cart-23 {
 
-   
+
     transform: translateX(4px);
 }
 
@@ -1385,13 +1493,13 @@ transform: translateY(-3px);
    SERVICE SECTION
    ========================================= */
 
-.back > div {
+.back>div {
 
     transition:
         transform 0.4s ease;
 }
 
-.back > div:hover {
+.back>div:hover {
     transform: translateY(-10px);
 }
 
@@ -1407,14 +1515,13 @@ transform: translateY(-3px);
         transform 0.45s ease;
 }
 
-.back > div:hover .img-1,
-.back > div:hover .img-4,
-.back > div:hover .img-7,
-.back > div:hover .img-10 {
+.back>div:hover .img-1,
+.back>div:hover .img-4,
+.back>div:hover .img-7,
+.back>div:hover .img-10 {
 
     transform:
-        scale(1.12)
-        rotate(5deg);
+        scale(1.12) rotate(5deg);
 }
 
 
@@ -1429,10 +1536,10 @@ transform: translateY(-3px);
         color 0.3s ease;
 }
 
-.back > div:hover .img-2,
-.back > div:hover .img-5,
-.back > div:hover .img-8,
-.back > div:hover .img-11 {
+.back>div:hover .img-2,
+.back>div:hover .img-5,
+.back>div:hover .img-8,
+.back>div:hover .img-11 {
 
     color: #B58A4A;
 }
@@ -1519,8 +1626,7 @@ transform: translateY(-3px);
 .icon:hover {
 
     transform:
-        translateY(-6px)
-        scale(1.12);
+        translateY(-6px) scale(1.12);
 
     opacity: 0.8;
 }
@@ -1569,7 +1675,7 @@ transform: translateY(-3px);
     transform: translateY(60px);
     transition:
         opacity 0.8s ease,
-        transform 0.8s cubic-bezier(.2,.8,.2,1);
+        transform 0.8s cubic-bezier(.2, .8, .2, 1);
 }
 
 .reveal.active {
@@ -1610,6 +1716,7 @@ transform: translateY(-3px);
     opacity: 1;
     transform: translateX(0);
 }
+
 /* =========================================
    PRODUCT PAGE - 768px RESPONSIVE
    ========================================= */
@@ -2074,7 +2181,7 @@ transform: translateY(-3px);
         border-radius: 20px;
     }
 
-    .back > div {
+    .back>div {
         position: absolute;
 
         left: 0;
@@ -2085,19 +2192,19 @@ transform: translateY(-3px);
         text-align: center;
     }
 
-    .back > div:nth-child(1) {
+    .back>div:nth-child(1) {
         top: 0;
     }
 
-    .back > div:nth-child(2) {
+    .back>div:nth-child(2) {
         top: 205px;
     }
 
-    .back > div:nth-child(3) {
+    .back>div:nth-child(3) {
         top: 410px;
     }
 
-    .back > div:nth-child(4) {
+    .back>div:nth-child(4) {
         top: 615px;
     }
 
@@ -2144,7 +2251,7 @@ transform: translateY(-3px);
 
     /* ---------- FOOTER ---------- */
 
-   /* FOOTER */
+    /* FOOTER */
     .footer {
         top: 5890px;
         height: 1050px;
@@ -2181,28 +2288,97 @@ transform: translateY(-3px);
     }
 
     /* FOOTER COLUMN 1 */
-    .m-1 { left: 25px; top: 270px; }
-    .m-2 { left: 25px; top: 315px; }
-    .m-3 { left: 25px; top: 350px; }
-    .m-4 { left: 25px; top: 385px; }
-    .m-5 { left: 25px; top: 420px; }
-    .m-6 { left: 25px; top: 455px; }
+    .m-1 {
+        left: 25px;
+        top: 270px;
+    }
+
+    .m-2 {
+        left: 25px;
+        top: 315px;
+    }
+
+    .m-3 {
+        left: 25px;
+        top: 350px;
+    }
+
+    .m-4 {
+        left: 25px;
+        top: 385px;
+    }
+
+    .m-5 {
+        left: 25px;
+        top: 420px;
+    }
+
+    .m-6 {
+        left: 25px;
+        top: 455px;
+    }
 
     /* FOOTER COLUMN 2 */
-    .m-7 { left: 180px; top: 270px; }
-    .m-8 { left: 180px; top: 315px; }
-    .m-9 { left: 180px; top: 350px; }
-    .m-10 { left: 180px; top: 385px; }
-    .m-11 { left: 180px; top: 420px; }
-    .m-12 { left: 180px; top: 455px; }
+    .m-7 {
+        left: 180px;
+        top: 270px;
+    }
+
+    .m-8 {
+        left: 180px;
+        top: 315px;
+    }
+
+    .m-9 {
+        left: 180px;
+        top: 350px;
+    }
+
+    .m-10 {
+        left: 180px;
+        top: 385px;
+    }
+
+    .m-11 {
+        left: 180px;
+        top: 420px;
+    }
+
+    .m-12 {
+        left: 180px;
+        top: 455px;
+    }
 
     /* FOOTER CUSTOMER CARE */
-    .m-13 { left: 25px; top: 510px; }
-    .m-14 { left: 25px; top: 550px; }
-    .m-18 { left: 25px; top: 585px; }
-    .m-15 { left: 25px; top: 620px; }
-    .m-16 { left: 25px; top: 655px; }
-    .m-17 { left: 25px; top: 690px; }
+    .m-13 {
+        left: 25px;
+        top: 510px;
+    }
+
+    .m-14 {
+        left: 25px;
+        top: 550px;
+    }
+
+    .m-18 {
+        left: 25px;
+        top: 585px;
+    }
+
+    .m-15 {
+        left: 25px;
+        top: 620px;
+    }
+
+    .m-16 {
+        left: 25px;
+        top: 655px;
+    }
+
+    .m-17 {
+        left: 25px;
+        top: 690px;
+    }
 
     /* NEWSLETTER */
     .m-19 {
@@ -2273,4 +2449,540 @@ transform: translateY(-3px);
     }
 }
 
-    
+/* =========================================
+   LAPTOP RESPONSIVE
+   1024px - 1400px
+   ========================================= */
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+      nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+
+    nav ul {
+        left: auto;
+        right: 40px;
+        top: 35px;
+    }
+
+    nav li {
+        padding: 12px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .icon-1 {
+        left: auto;
+        right: 105px;
+        top: 25px;
+        height: 32px;
+        display: none;
+    }
+
+    .icon-2 {
+        left: auto;
+        right: 58px;
+        top: 25px;
+        height: 30px;
+        display: none;
+    }
+
+    .icon-3 {
+        left: auto;
+        right: 12px;
+        top: 22px;
+        height: 32px;
+        display: none;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero-image {
+        top: 100px;
+        width: 100%;
+        height: 430px;
+        object-fit: cover;
+    }
+
+    .hero-head {
+        top: 175px;
+        left: 80px;
+        font-size: 15px;
+    }
+
+    .hero-head-2 {
+        top: 220px;
+        left: 80px;
+        font-size: 45px;
+        line-height: 1.15;
+    }
+
+    .line {
+        top: 350px;
+        left: 80px;
+        width: 90px;
+    }
+
+    .para-hero {
+        top: 385px;
+        left: 80px;
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+
+    /* ================= CATEGORY BAR ================= */
+
+    .con {
+        top: 580px;
+        left: 8%;
+        width: 84%;
+        height: 120px;
+        border-radius: 25px;
+    }
+
+    .moisturizer-1 {
+        left: 45px;
+        top: 47px;
+        font-size: 17px;
+    }
+
+    .moisturizer-2 {
+        left: 230px;
+        top: 47px;
+        font-size: 17px;
+    }
+
+    .moisturizer-3 {
+        left: 410px;
+        top: 47px;
+        font-size: 17px;
+    }
+
+    .moisturizer-4 {
+        left: 590px;
+        top: 47px;
+        font-size: 17px;
+    }
+
+    .moisturizer-5 {
+        left: 790px;
+        top: 47px;
+        font-size: 17px;
+    }
+
+
+    /* ================= FIRST ROW ================= */
+
+    .card-1 {
+        top: 780px;
+        left: 6%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .card-7 {
+        top: 780px;
+        left: 29%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .card-13 {
+        top: 780px;
+        left: 52%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .card-19 {
+        top: 780px;
+        left: 75%;
+        width: 20%;
+        height: 430px;
+    }
+
+
+    /* PRODUCT IMAGES */
+
+    .card-2,
+    .card-8,
+    .card-14,
+    .card-20 {
+        width: 100%;
+        height: 225px;
+        object-fit: cover;
+        left: 0;
+    }
+
+
+    /* PRODUCT TEXT */
+
+    .card-3,
+    .card-9,
+    .card-15,
+    .card-21 {
+        top: 250px;
+        left: 15px;
+        font-size: 15px;
+    }
+
+    .card-4,
+    .card-10,
+    .card-16,
+    .card-22 {
+        top: 278px;
+        left: 15px;
+        font-size: 12px;
+    }
+
+    .card-5,
+    .card-11,
+    .card-17,
+    .card-23 {
+        top: 308px;
+        left: 15px;
+        font-size: 16px;
+    }
+
+    .card-6,
+    .card-12,
+    .card-18,
+    .card-24 {
+        top: 338px;
+        left: 15px;
+        height: 14px;
+    }
+
+
+    /* ADD TO CART */
+
+    .card-25,
+    .card-26,
+    .card-27,
+    .card-28 {
+        top: 370px;
+        left: 15px;
+        height: auto;
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+
+
+    /* ================= SECOND ROW ================= */
+
+    .cart-1 {
+        top: 1280px;
+        left: 6%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .cart-7 {
+        top: 1280px;
+        left: 29%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .cart-13 {
+        top: 1280px;
+        left: 52%;
+        width: 20%;
+        height: 430px;
+    }
+
+    .cart-19 {
+        top: 1280px;
+        left: 75%;
+        width: 20%;
+        height: 430px;
+    }
+
+
+    /* SECOND ROW IMAGES */
+
+    .cart-2,
+    .cart-8,
+    .cart-14,
+    .cart-20 {
+        width: 100%;
+        height: 225px;
+        object-fit: cover;
+        left: 0;
+    }
+
+
+    .cart-3,
+    .cart-9,
+    .cart-15,
+    .cart-21 {
+        top: 250px;
+        left: 15px;
+        font-size: 15px;
+    }
+
+    .cart-4,
+    .cart-10,
+    .cart-16,
+    .cart-22 {
+        top: 278px;
+        left: 15px;
+        font-size: 12px;
+    }
+
+    .cart-5,
+    .cart-11,
+    .cart-17,
+    .cart-23 {
+        top: 308px;
+        left: 15px;
+        font-size: 16px;
+    }
+
+    .cart-6,
+    .cart-12,
+    .cart-18,
+    .cart-24 {
+        top: 338px;
+        left: 15px;
+        height: 14px;
+    }
+
+
+    .cart-25,
+    .cart-26,
+    .cart-27,
+    .cart-28 {
+        top: 370px;
+        left: 15px;
+        height: auto;
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+
+
+    /* ================= LOAD MORE ================= */
+
+    .load {
+        top: 1770px;
+        left: 46%;
+        padding: 13px 25px;
+        font-size: 14px;
+    }
+    }
+
+
+    /* ================= SERVICE SECTION ================= */
+
+    .back {
+        top: 1880px;
+        left: 5%;
+        width: 90%;
+        height: 200px;
+    }
+
+    .img-1,
+    .img-4,
+    .img-7,
+    .img-10 {
+        height: 75px;
+        top: 15px;
+    }
+
+    .img-1 {
+        left: 12%;
+    }
+
+    .img-4 {
+        left: 37%;
+    }
+
+    .img-7 {
+        left: 62%;
+    }
+
+    .img-10 {
+        left: 87%;
+    }
+
+    .img-2,
+    .img-5,
+    .img-8,
+    .img-11 {
+        top: 105px;
+        font-size: 14px;
+    }
+
+    .img-2 {
+        left: 11%;
+    }
+
+    .img-5 {
+        left: 36%;
+    }
+
+    .img-8 {
+        left: 61%;
+    }
+
+    .img-11 {
+        left: 86%;
+    }
+
+    .img-3,
+    .img-6,
+    .img-9,
+    .img-12 {
+        top: 132px;
+        font-size: 11px;
+    }
+
+    .img-3 {
+        left: 10%;
+    }
+
+    .img-6 {
+        left: 35%;
+    }
+
+    .img-9 {
+        left: 60%;
+    }
+
+    .img-12 {
+        left: 85%;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer {
+        top: 2130px;
+        height: 470px;
+    }
+
+    .logo-1 {
+        left: 45px;
+        top: 55px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 110px;
+        top: 60px;
+    }
+
+    .filter-2 {
+        left: 110px;
+        top: 95px;
+        font-size: 13px;
+    }
+
+    .filter-3 {
+        left: 60px;
+        top: 145px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon {
+        left: 35px;
+        top: 200px;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 520px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 740px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 970px;
+    }
+
+    .m-21 {
+        left: 950px;
+        width: 170px;
+        top: 300px;
+    }
+
+    .m-22 {
+        left: 1090px;
+        top: 300px;
+
+    }
+
+    .line-m {
+        left: 6%;
+        width: 88%;
+        top: 380px;
+    }
+
+    .copyright {
+        left: 6%;
+        top: 420px;
+        font-size: 13px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 420px;
+    }
+
+    .police-2 {
+        left: 77%;
+        top: 420px;
+    }
+
+    .police-3 {
+        left: 89%;
+        top: 420px;
+    }

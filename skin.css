@@ -1470,3 +1470,274 @@ nav a:hover {
         transform: translateX(-50%) translateY(-5px);
     }
 }
+/* =========================================
+   LAPTOP MEDIA QUERY
+   1024px - 1400px
+========================================= */
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    /* ================= NAVBAR ================= */
+
+    ul {
+        left: auto;
+        right: 35px;
+        top: 35px;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+         nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+
+    .icon-1 {
+        left: auto;
+        right: 110px;
+        display: none;
+    }
+
+    .icon-2 {
+        left: auto;
+        right: 60px;
+              display: none;
+    }
+
+    .icon-3 {
+        left: auto;
+        right: 15px;
+              display: none;
+    }
+
+
+    /* ================= MAIN CONTAINER ================= */
+
+    .container {
+        width: 100%;
+        top: 100px;
+    }
+
+    .p-1 {
+        left: 54%;
+        margin-left: -170px;
+        font-size: 32px;
+        white-space: nowrap;
+    }
+
+    .p-2 {
+        left: 50%;
+        margin-left: -180px;
+        text-align: center;
+    }
+
+    .p-3 {
+        left: 70px;
+    }
+
+
+    /* ================= PROGRESS LINE ================= */
+
+    .line {
+        left: 18%;
+        width: 65%;
+    }
+
+    .skin-1 {
+        left: 15%;
+    }
+
+    .skin-2 {
+        left: 32%;
+    }
+
+    .skin-3 {
+        left: 49%;
+    }
+
+    .skin-4 {
+        left: 66%;
+    }
+
+    .skin-5 {
+        left: 83%;
+    }
+
+    .head-1 {
+        left: calc(15% - 20px);
+    }
+
+    .head-2 {
+        left: calc(32% - 30px);
+    }
+
+    .head-3 {
+        left: calc(49% - 35px);
+    }
+
+    .head-4 {
+        left: calc(66% - 10px);
+    }
+
+    .head-5 {
+        left: calc(83% - 10px);
+    }
+
+
+    /* ================= QUIZ SECTION ================= */
+
+    .sec {
+        width: 92%;
+        left: 4%;
+        top: 500px;
+        height: 600px;
+    }
+
+
+    /* ================= QUIZ HEADING ================= */
+
+    .bin-1 {
+        left: 57%;
+        margin-left: -200px;
+        font-size: 28px;
+        white-space: nowrap;
+    }
+
+    .bin-2 {
+        left: 50%;
+        margin-left: -145px;
+        white-space: nowrap;
+    }
+
+
+    /* ================= QUIZ BOXES ================= */
+
+    .box-1 {
+        left: 4%;
+    }
+
+    .box-2 {
+        left: 28%;
+    }
+
+    .box-3 {
+        left: 52%;
+    }
+
+    .box-4 {
+        left: 76%;
+    }
+
+
+    /* ================= FIRST CARD ================= */
+
+    .l-1 {
+        left: 11%;
+    }
+
+    .l-2 {
+        left: 8%;
+    }
+
+    .l-3 {
+        left: 8%;
+    }
+
+    #l-4 {
+        left: 13%;
+    }
+
+
+    /* ================= SECOND CARD ================= */
+
+    .l-4 {
+        left: 35%;
+    }
+
+    .l-5 {
+        left: 30%;
+    }
+
+    .l-6 {
+        left: 33%;
+    }
+
+    #l-6 {
+        left: 37%;
+    }
+
+
+    /* ================= THIRD CARD ================= */
+
+    .l-7 {
+        left: 59%;
+    }
+
+    .l-8 {
+        left: 56%;
+    }
+
+    .l-9 {
+        left: 55%;
+    }
+
+    #l-7 {
+        left: 61%;
+    }
+
+
+    /* ================= FOURTH CARD ================= */
+
+    .l-10 {
+        left: 83%;
+    }
+
+    .l-11 {
+        left: 84%;
+    }
+
+    .l-12 {
+        left: 80%;
+    }
+
+    #l-8 {
+        left: 85%;
+    }
+
+
+    /* ================= RESULT BUTTON ================= */
+
+    .btn {
+        left: 50%;
+        margin-left: -80px;
+        top: 500px;
+        padding: 15px 60px;
+    }
+
+
+    /* ================= HAMBURGER ================= */
+
+    .hamburger {
+        display: none;
+    }
+}

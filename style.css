@@ -3443,4 +3443,754 @@ position: absolute;
         background: #B58A4A;
     }
 }
+/* =========================================================
+   GLOWRA HOME — LAPTOP
+   1024px TO 1400px
+   Desktop design same rahega
+========================================================= */
 
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    nav {
+        height: 80px;
+        position: relative;
+    }
+
+       nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+    nav ul {
+        left: auto;
+        right: 45px;
+        top: 29px;
+    }
+
+    nav li {
+        padding: 0 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .hero-img {
+        height: 45px;
+        width: auto;
+        top: 17px;
+        left: 28px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero-image {
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 570px;
+        object-fit: cover;
+    }
+
+    .hero-head {
+        top: 175px;
+        left: 7%;
+        font-size: 15px;
+    }
+
+    .hero-head-2 {
+        top: 215px;
+        left: 7%;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .para-hero {
+        top: 410px;
+        left: 7%;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .btn-1 a {
+        top: 520px;
+        left: 7%;
+        font-size: 14px;
+        padding: 14px 38px;
+    }
+
+    .btn-2 a {
+        top: 520px;
+        left: 20%;
+        font-size: 14px;
+        padding: 14px 30px;
+    }
+
+
+    /* ================= BENEFITS ================= */
+
+    .section-1 {
+        top: 670px;
+        left: 8%;
+        width: 85%;
+        height: 170px;
+        border-radius: 20px;
+    }
+
+    .zuhaib-image-1 {
+        top: 715px;
+        left: 15%;
+        height: 45px;
+    }
+
+    .zuhaib-image-2 {
+        top: 715px;
+        left: 37%;
+        height: 55px;
+    }
+
+    .zuhaib-image-3 {
+        top: 720px;
+        left: 59%;
+        height: 55px;
+    }
+
+    .zuhaib-image-4 {
+        top: 715px;
+        left: 81%;
+        height: 55px;
+    }
+
+    .heading-1 {
+        top: 765px;
+        left: 15%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .heading-2 {
+        top: 765px;
+        left: 35%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .heading-3 {
+        top: 765px;
+        left: 60%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .heading-4 {
+        top: 765px;
+        left: 80.5%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+
+    /* ================= OUR PROMISE ================= */
+
+    .section {
+        top: 860px;
+        left: 2%;
+        width: 95%;
+        height: 380px;
+        border-radius: 20px;
+    }
+
+    .para-3 {
+        top: 890px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .para-4 {
+        top: 945px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .spoon-1{
+        left: 39%;
+    }
+    .txt-1 {
+        top: 975px;
+        left: 10%;
+        height: 85px;
+    }
+
+    .txt-2 {
+        top: 1055px;
+        left: 9%;
+        font-size: 19px;
+    }
+
+    .txt-3 {
+        top: 1085px;
+        left: 9%;
+        font-size: 14px;
+    }
+
+    .line-1 {
+        top: 1010px;
+        left: 25%;
+        height: 100px;
+    }
+
+    .txt-4 {
+        top: 985px;
+        left: 35%;
+        height: 70px;
+    }
+
+    .txt-5 {
+        top: 1055px;
+        left: 33%;
+        font-size: 16px;
+    }
+
+    .txt-6 {
+        top: 1085px;
+        left: 33%;
+        font-size: 14px;
+    }
+
+    .line-2 {
+        top: 1010px;
+        left: 51%;
+        height: 100px;
+    }
+
+    .txt-7 {
+        top: 985px;
+        left: 59%;
+        height: 70px;
+    }
+
+    .txt-8 {
+        top: 1055px;
+        left: 58%;
+        font-size: 16px;
+    }
+
+    .txt-12 {
+        top: 1085px;
+        left: 59%;
+        font-size: 14px;
+    }
+
+    .line-3{
+        left: 73%;
+        top: 1010px;
+        height: 100px;
+    }
+    .txt-9{
+         top: 975px;
+        left: 79%;
+        height: 90px;
+    }
+    .txt-10{
+         top: 1055px;
+        left: 78%;
+        font-size: 16px;
+    }
+    .txt-11 {
+         top: 1085px;
+        left: 79%;
+        font-size: 14px;
+    }
+
+
+    /* ================= SHOP BY CONCERN ================= */
+
+    .header {
+        top: 1280px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .png {
+        top: 1330px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mount {
+        display: none;
+    }
+
+
+    /* Concern 1 */
+
+    .but-1 {
+        top: 1400px;
+        left: 5.5%;
+        width: 16%;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .but-2 {
+        top: 1620px;
+        left: 6.5%;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .but-3 {
+        top: 1655px;
+        left: 6.5%;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    /* Concern 2 */
+
+    .but-4 {
+        top: 1400px;
+        left: 25%;
+        width: 16%;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .but-5 {
+        top: 1620px;
+        left: 26%;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .but-6 {
+        top: 1655px;
+        left: 26%;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    /* Concern 3 */
+
+    .but-7 {
+        top: 1400px;
+        left: 44.5%;
+        width: 16%;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .but-8 {
+        top: 1620px;
+        left: 46%;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .but-9 {
+        top: 1655px;
+        left: 46%;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    /* Concern 4 */
+
+    .but-10 {
+        top: 1400px;
+        left: 64%;
+        width: 16%;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .but-11 {
+        top: 1620px;
+        left: 65%;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .but-12 {
+        top: 1655px;
+        left: 65%;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    /* Concern 5 */
+
+    .but-13 {
+        top: 1400px;
+        left: 83.5%;
+        width: 16%;
+        height: 210px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .but-14 {
+        top: 1620px;
+        left: 85%;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .but-15 {
+        top: 1655px;
+        left: 85%;
+        font-size: 12px;
+        height: auto;
+    }
+
+
+    /* ================= BEST SELLER ================= */
+
+    .mr-1 {
+        top: 1780px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .mr-2 {
+        top: 1830px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mr-3 {
+        top: 1880px;
+        left: auto;
+        right: 6%;
+        font-size: 13px;
+    }
+
+
+    /* Product cards */
+
+    .container {
+        position: absolute;
+        top: 1940px;
+        left: 6%;
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .card-1,
+    .card-7,
+    .card-13,
+    .card-19 {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 23.5%;
+        height: 360px;
+        flex-shrink: 0;
+    }
+
+    .card-2,
+    .card-8,
+    .card-14,
+    .card-20 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .card-3,
+    .card-9,
+    .card-15,
+    .card-21 {
+        top: 245px;
+        left: 18px;
+        font-size: 14px;
+    }
+
+    .card-4,
+    .card-10,
+    .card-16,
+    .card-22 {
+        top: 275px;
+        left: 18px;
+        font-size: 11px;
+    }
+
+    .card-5,
+    .card-11,
+    .card-17,
+    .card-23 {
+        top: 305px;
+        left: 18px;
+        font-size: 15px;
+    }
+
+    .card-6,
+    .card-12,
+    .card-18,
+    .card-24 {
+        top: 335px;
+        left: 18px;
+        height: 13px;
+    }
+
+
+    /* ================= GLOW BANNER ================= */
+
+    .zamir-1 {
+        top: 2370px;
+        left: 16.5%;
+        width: 78%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .zamir-2 {
+        top: 2470px;
+        left: 43%;
+        font-size: 35px;
+    }
+
+    .zamir-3 {
+        top: 2535px;
+        left: 42%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .zamir-4 {
+        top: 2615px;
+        left: 48%;
+        font-size: 14px;
+        padding: 12px 22px;
+    }
+
+
+    /* ================= SERVICES ================= */
+
+    .img-1 {
+        top: 2820px;
+        left: 10%;
+        height: 65px;
+    }
+
+    .img-2 {
+        top: 2840px;
+        left: 18%;
+        font-size: 14px;
+    }
+
+    .img-3 {
+        top: 2870px;
+        left: 18%;
+        font-size: 11px;
+    }
+
+    .img-4 {
+        top: 2820px;
+        left: 34%;
+        height: 65px;
+    }
+
+    .img-5 {
+        top: 2840px;
+        left: 42%;
+        font-size: 14px;
+    }
+
+    .img-6 {
+        top: 2870px;
+        left: 42%;
+        font-size: 11px;
+    }
+
+    .img-7 {
+        top: 2820px;
+        left: 59%;
+        height: 65px;
+    }
+
+    .img-8 {
+        top: 2840px;
+        left: 67%;
+        font-size: 14px;
+    }
+
+    .img-9 {
+        top: 2870px;
+        left: 67%;
+        font-size: 11px;
+    }
+
+    .img-10 {
+        top: 2820px;
+        left: 83%;
+        height: 65px;
+    }
+
+    .img-11 {
+        top: 2840px;
+        left: 91%;
+        font-size: 14px;
+    }
+
+    .img-12 {
+        top: 2870px;
+        left: 91%;
+        font-size: 11px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer {
+        top: 2960px;
+        height: 450px;
+        width: 100%;
+    }
+
+   .logo {
+        left: 45px;
+        top: 55px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 110px;
+        top: 60px;
+    }
+
+    .filter-2 {
+        left: 110px;
+        top: 95px;
+        font-size: 13px;
+    }
+
+    .filter-3 {
+        left: 60px;
+        top: 145px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon {
+        left: 35px;
+        top: 200px;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 520px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 740px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 970px;
+    }
+
+    .m-21 {
+        left: 950px;
+        width: 170px;
+        top: 300px;
+    }
+
+    .m-22 {
+        left: 1090px;
+        top: 300px;
+        
+    }
+
+    .line-m {
+        left: 6%;
+        width: 88%;
+        top: 380px;
+    }
+
+    .copyright {
+        left: 6%;
+        top: 420px;
+        font-size: 13px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 420px;
+    }
+
+    .police-2 {
+        left: 77%;
+        top: 420px;
+    }
+
+    .police-3 {
+        left: 89%;
+        top: 420px;
+    }
+}

@@ -2743,5 +2743,562 @@ nav a:hover {
         transform: translateY(0);
     }
 }
+/* =========================================
+   GLOWRA ABOUT PAGE
+   LAPTOP RESPONSIVE
+   1024px - 1400px
+========================================= */
 
-    
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    nav {
+       height: 90px;
+        position: relative;
+        z-index: 999;
+    }
+
+       nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+
+    nav ul {
+        left: auto;
+        right: 35px;
+        top: 35px;
+    }
+
+    nav li {
+        padding: 8px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .icon-1 {
+        left: auto;
+        right: 75px;
+        top: 25px;
+        height: 32px;
+    }
+
+    .icon-2 {
+        left: auto;
+        right: 35px;
+        top: 25px;
+        height: 30px;
+    }
+
+    .icon-3 {
+        display: none;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .container {
+        top: 90px;
+        height: 620px;
+    }
+
+    .hero-image {
+        left: 68%;
+        top: 35px;
+        height: 580px;
+        max-width: 30%;
+        object-fit: contain;
+    }
+
+    .hero-head {
+        top: 100px;
+        left: 75px;
+        font-size: 14px;
+    }
+
+    .hero-head-2 {
+        top: 145px;
+        left: 75px;
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .line {
+        top: 370px;
+        left: 75px;
+    }
+
+    .para-hero {
+        top: 410px;
+        left: 75px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+
+    /* ================= STATS ================= */
+
+    .z-1 {
+        top: 800px;
+        left: 8%;
+        height: 70px;
+    }
+
+    .z-2 {
+        top: 875px;
+        left: 10%;
+        font-size: 21px;
+    }
+
+    .z-3 {
+        top: 905px;
+        left: 9%;
+        font-size: 16px;
+    }
+
+    .line-1 {
+        top: 830px;
+        left: 25%;
+        height: 100px;
+    }
+
+    .z-4 {
+        top: 810px;
+        left: 30%;
+        height: 65px;
+    }
+
+    .z-5 {
+        top: 875px;
+        left: 33%;
+        font-size: 21px;
+    }
+
+    .z-6 {
+        top: 905px;
+        left: 33%;
+        font-size: 16px;
+    }
+
+    .line-2 {
+        top: 830px;
+        left: 50%;
+        height: 100px;
+    }
+
+    .z-7 {
+        top: 810px;
+        left: 55%;
+        height: 65px;
+    }
+
+    .z-8 {
+        top: 875px;
+        left: 58%;
+        font-size: 21px;
+    }
+
+    .z-9 {
+        top: 905px;
+        left: 57%;
+        font-size: 16px;
+    }
+
+    .line-3 {
+        top: 830px;
+        left: 75%;
+        height: 100px;
+    }
+
+    .z-10 {
+        top: 810px;
+        left: 80%;
+        height: 65px;
+    }
+
+    .z-11 {
+        top: 875px;
+        left: 82%;
+        font-size: 21px;
+    }
+
+    .z-12 {
+        top: 905px;
+        left: 81%;
+        font-size: 16px;
+    }
+
+
+    /* ================= OUR JOURNEY ================= */
+
+    .section-2 {
+        width: 85%;
+        left: 7.5%;
+        top: 1020px;
+        height: 360px;
+    }
+
+    .mir-1 {
+        left: 8%;
+        top: 45px;
+        font-size: 34px;
+    }
+
+    .mir-2 {
+        left: 8%;
+        top: 115px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .sec {
+        left: 58%;
+        height: 360px;
+        width: 42%;
+        object-fit: cover;
+    }
+
+
+    /* ================= DIFFERENT ================= */
+
+    .man-2 {
+        top: 425px;
+        left: 38%;
+        font-size: 30px;
+    }
+
+    .n-1 {
+        top: 505px;
+        left: 7%;
+        height: 85px;
+    }
+
+    .n-2 {
+        top: 600px;
+        left: 8%;
+        font-size: 18px;
+    }
+
+    .n-3 {
+        top: 630px;
+        left: 6%;
+        font-size: 16px;
+    }
+
+    .line-4 {
+        top: 570px;
+        left: 25%;
+        height: 125px;
+    }
+
+    .n-4 {
+        top: 505px;
+        left: 31%;
+        height: 85px;
+    }
+
+    .n-5 {
+        top: 600px;
+        left: 33%;
+        font-size: 18px;
+    }
+
+    .n-6 {
+        top: 630px;
+        left: 30%;
+        font-size: 16px;
+    }
+
+    .line-5 {
+        top: 570px;
+        left: 50%;
+        height: 125px;
+    }
+
+    .n-7 {
+        top: 505px;
+        left: 55%;
+        height: 85px;
+    }
+
+    .n-8 {
+        top: 600px;
+        left: 58%;
+        font-size: 18px;
+    }
+
+    .n-9 {
+        top: 630px;
+        left: 54%;
+        font-size: 16px;
+    }
+
+    .line-6 {
+        top: 570px;
+        left: 75%;
+        height: 125px;
+    }
+
+    .n-10 {
+        top: 505px;
+        left: 80%;
+        height: 85px;
+    }
+
+    .n-11 {
+        top: 600px;
+        left: 81%;
+        font-size: 18px;
+    }
+
+    .n-12 {
+        top: 630px;
+        left: 80%;
+        font-size: 16px;
+        width: 150px;
+    }
+
+
+    /* ================= FOUNDER ================= */
+
+    .section-3 {
+        top: 800px;
+        height: 420px;
+    }
+
+    .p-1 {
+        height: 370px;
+        top: 25px;
+        left: 5%;
+    }
+
+    .p-2 {
+        left: 52%;
+        top: 115px;
+        font-size: 32px;
+    }
+
+    .p-3 {
+        left: 52%;
+        top: 175px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .p-4 {
+        left: 52%;
+        top: 305px;
+    }
+
+    .p-5 {
+        left: 52%;
+        top: 340px;
+        font-size: 14px;
+    }
+
+
+    /* ================= FEATURED ================= */
+
+    .section-4 {
+        top: 2350px;
+        height: 160px;
+    }
+
+    .end-1 {
+        left: 42%;
+        font-size: 30px;
+    }
+
+    .end-2 {
+        top: 95px;
+        left: 14%;
+        font-size: 30px;
+    }
+
+    .end-3 {
+        top: 95px;
+        left: 32%;
+        font-size: 30px;
+    }
+
+    .end-4 {
+        top: 95px;
+        left: 50%;
+        font-size: 30px;
+    }
+
+    .end-5 {
+        top: 95px;
+        left: 68%;
+        font-size: 30px;
+    }
+
+    .end-6 {
+        top: 95px;
+        left: 86%;
+        font-size: 30px;
+    }
+
+
+    /* ================= NEWSLETTER ================= */
+
+    .sec-5 {
+        top: 2440px;
+        left: 25%;
+        width: 50%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .in-1 {
+        left: 37%;
+        top: 2450px;
+        font-size: 28px;
+    }
+
+    .in-2 {
+        left: 39%;
+        top: 2490px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .in-3 {
+        left: 39%;
+        top: 2560px;
+        width: 220px;
+    }
+
+    .in-4 {
+        left: 45%;
+        top: 2620px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer {
+        top: 2780px;
+        height: 480px;
+    }
+
+     .logo-1 {
+        left: 45px;
+        top: 55px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 110px;
+        top: 60px;
+    }
+
+    .filter-2 {
+        left: 110px;
+        top: 95px;
+        font-size: 13px;
+    }
+
+    .filter-3 {
+        left: 60px;
+        top: 145px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon {
+        left: 35px;
+        top: 200px;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 520px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 740px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 970px;
+    }
+
+    .m-21 {
+        left: 950px;
+        width: 170px;
+        top: 300px;
+    }
+
+    .m-22 {
+        left: 1090px;
+        top: 300px;
+        
+    }
+
+    .line-m {
+        left: 6%;
+        width: 88%;
+        top: 380px;
+    }
+
+    .copyright {
+        left: 6%;
+        top: 420px;
+        font-size: 13px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 420px;
+    }
+
+    .police-2 {
+        left: 77%;
+        top: 420px;
+    }
+
+    .police-3 {
+        left: 89%;
+        top: 420px;
+    }
+}

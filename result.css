@@ -1681,3 +1681,325 @@ nav a:hover {
         transform: translateY(-4px);
     }
 }
+/* ================= LAPTOP ================= */
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    /* NAVBAR */
+    ul {
+        left: auto;
+        right: 35px;
+        top: 35px;
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+      nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+    .icon-1 {
+        left: auto;
+        right: 110px;
+        display: none;
+    }
+
+    .icon-2 {
+        left: auto;
+        right: 60px;
+           display: none;
+    }
+
+    .icon-3 {
+        left: auto;
+        right: 15px;
+           display: none;
+    }
+
+
+    /* TOP CONTAINER */
+    .container {
+        top: 100px;
+        height: 1200px;
+    }
+
+    .p-1 {
+        left: 55%;
+        margin-left: -180px;
+        font-size: 32px;
+        white-space: nowrap;
+    }
+
+    .p-2 {
+        left: 52%;
+        margin-left: -190px;
+        width: 380px;
+        text-align: center;
+    }
+
+    .p-3 {
+        left: 90px;
+    }
+
+
+    /* PROGRESS LINE */
+    .line {
+        left: 20%;
+        width: 67%;
+    }
+
+    .skin-1 {
+        left: 17%;
+    }
+
+    .skin-2 {
+        left: 35%;
+    }
+
+    .skin-3 {
+        left: 52%;
+    }
+
+    .skin-4 {
+        left: 69%;
+    }
+
+    .skin-5 {
+        left: 86%;
+    }
+
+    .head-1 {
+        left: calc(17% - 20px);
+    }
+
+    .head-2 {
+        left: calc(35% - 35px);
+    }
+
+    .head-3 {
+        left: calc(52% - 35px);
+    }
+
+    .head-4 {
+        left: calc(69% - 10px);
+    }
+
+    .head-5 {
+        left: calc(86% - 10px);
+    }
+
+
+    /* QUIZ BOX */
+    .sec {
+        width: 90%;
+        left: 5%;
+        top: 550px;
+    }
+
+    .bin-1 {
+        left: 50%;
+        margin-left: -220px;
+        font-size: 27px;
+        white-space: nowrap;
+    }
+
+    .bin-2 {
+        left: 42%;
+        margin-left: -150px;
+        white-space: nowrap;
+    }
+
+
+    /* QUIZ CARDS */
+    .box-1 {
+        left: 3%;
+    }
+
+    .box-2 {
+        left: 26.5%;
+    }
+
+    .box-3 {
+        left: 49%;
+    }
+
+    .box-4 {
+        left: 74%;
+    }
+
+
+    /* CARD 1 */
+    .l-1 {
+        left: 10%;
+    }
+
+    .l-2 {
+        left: 8%;
+    }
+
+    .l-3 {
+        left: 8%;
+    }
+
+    #l-4 {
+        left: 12%;
+    }
+
+
+    /* CARD 2 */
+    .l-4 {
+        left: 33%;
+    }
+
+    .l-5 {
+        left: 30%;
+    }
+
+    .l-6 {
+        left: 32%;
+    }
+
+    #l-6 {
+        left: 36%;
+    }
+
+
+    /* CARD 3 */
+    .l-7 {
+        left: 56%;
+    }
+
+    .l-8 {
+        left: 53%;
+    }
+
+    .l-9 {
+        left: 52%;
+    }
+
+    #l-7 {
+        left: 59%;
+    }
+
+
+    /* CARD 4 */
+    .l-10 {
+        left: 79%;
+    }
+
+    .l-11 {
+        left: 78%;
+    }
+
+    .l-12 {
+        left: 76%;
+    }
+
+    #l-8 {
+        left: 82%;
+    }
+
+
+    /* RESULT */
+    .sec-2 {
+        width: 27%;
+        left: 68%;
+        top: 430px;
+    }
+
+    .acne-1 {
+        left: 28px;
+        width: 280px;
+        font-size: 25px;
+    }
+
+    .acne-2 {
+        left: 10px;
+        width: 300px;
+    }
+    #acne-2{
+        top: 14px;
+        left: 70px;
+    }
+
+    .acne-3 {
+        left: 25px;
+        width: 250px;
+    }
+
+    .acne-7 {
+        left: 85px;
+    }
+
+    .acne-8 {
+        left: 20px;
+    }
+
+    .acne-9 {
+        left: 90px;
+    }
+
+    .acne-10 {
+        left: 185px;
+        font-size: 13px;
+    }
+
+    .acne-11 {
+        left: 55px;
+    }
+
+    .card-1 {
+        width: 250px;
+        left: 25px;
+    }
+
+    .card-2 {
+        width: 248px;
+        left: 1px;
+    }
+
+    .card-3 {
+        left: 65px;
+    }
+
+    .card-4 {
+        left: 60px;
+    }
+
+    .card-6 {
+        left: 75px;
+    }
+
+    .acne-12 {
+        left: 65px;
+    }
+
+    .acne-13 {
+        left: 85px;
+    }
+
+
+    /* HAMBURGER */
+    .hamburger {
+        display: none;
+    }
+}

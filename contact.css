@@ -1361,4 +1361,356 @@ form:hover {
     }
 }
 
-    
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    nav {
+        height: 90px;
+        position: relative;
+        z-index: 999;
+    }
+
+    nav h1 {
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        left: 75px;
+        top: 55px;
+        font-size: 12px;
+    }
+        .logo {
+        top: 18px;
+        left: 35px;
+        height: 45px;
+        width: auto;
+        z-index: 10000;
+    }
+
+    nav ul {
+        left: auto;
+        right: 40px;
+        top: 35px;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .icon-1 {
+        left: auto;
+        right: 75px;
+        top: 25px;
+        height: 32px;
+    }
+
+    .icon-2 {
+        left: auto;
+        right: 35px;
+        top: 25px;
+        height: 30px;
+    }
+
+    .icon-3 {
+        display: none;
+    }
+
+
+    /* HERO */
+    .hero-image {
+        top: 90px;
+        width: 100%;
+        height: 430px;
+        object-fit: cover;
+    }
+
+    .hero-head {
+        top: 165px;
+        left: 75px;
+        font-size: 14px;
+    }
+
+    .hero-head-2 {
+        top: 210px;
+        left: 75px;
+        font-size: 45px;
+    }
+
+    .line {
+        top: 350px;
+        left: 75px;
+    }
+
+    .para-hero {
+        top: 390px;
+        left: 75px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+
+    /* CONTACT INFO */
+    .btn-1 {
+        top: 600px;
+        left: 70px;
+        height: 35px;
+    }
+
+    .btn-2 {
+        top: 595px;
+        left: 120px;
+        font-size: 18px;
+    }
+
+    .btn-3 {
+        top: 625px;
+        left: 120px;
+        font-size: 14px;
+    }
+
+    .btn-4 {
+        top: 710px;
+        left: 70px;
+        height: 35px;
+    }
+
+    .btn-5 {
+        top: 705px;
+        left: 120px;
+        font-size: 18px;
+    }
+
+    .btn-6 {
+        top: 735px;
+        left: 120px;
+        font-size: 14px;
+    }
+
+    .btn-7 {
+        top: 820px;
+        left: 70px;
+        height: 35px;
+    }
+
+    .btn-8 {
+        top: 815px;
+        left: 120px;
+        font-size: 18px;
+    }
+
+    .btn-9 {
+        top: 845px;
+        left: 120px;
+        font-size: 14px;
+    }
+
+    .btn-10 {
+        top: 930px;
+        left: 70px;
+        height: 35px;
+    }
+
+    .btn-11 {
+        top: 925px;
+        left: 120px;
+        font-size: 18px;
+    }
+
+    .btn-12 {
+        top: 955px;
+        left: 120px;
+        font-size: 14px;
+    }
+
+
+    /* FORM */
+    form {
+        top: 600px;
+        left: 53%;
+        width: 390px;
+        height: 470px;
+    }
+
+    .btn-13,
+    .btn-14,
+    .btn-15 {
+        width: 330px;
+        padding: 12px;
+        left: 30px;
+    }
+
+    .btn-13 {
+        top: 35px;
+    }
+
+    .btn-14 {
+        top: 95px;
+    }
+
+    .btn-15 {
+        top: 155px;
+    }
+
+    .btn-16 {
+        width: 330px;
+        height: 150px;
+        padding: 12px;
+        left: 30px;
+        top: 215px;
+        resize: none;
+    }
+
+    .btn-17 {
+        top: 405px;
+        left: 30px;
+        width: 330px;
+        height: 40px;
+    }
+
+
+    /* HELP */
+    .img-1 {
+        top: 1140px;
+        left: 25%;
+        width: 50%;
+        height: 190px;
+        object-fit: cover;
+    }
+
+    .img-2 {
+        top: 1170px;
+        left: 30%;
+        font-size: 28px;
+    }
+
+    .img-3 {
+        top: 1215px;
+        left: 30%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .img-4 {
+        top: 1270px;
+        left: 30%;
+        padding: 12px 25px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        top: 1380px;
+        height: 500px;
+        width: 100%;
+    }
+
+    .logo-1 {
+        left: 45px;
+        top: 55px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 110px;
+        top: 60px;
+    }
+
+    .filter-2 {
+        left: 110px;
+        top: 95px;
+        font-size: 13px;
+    }
+
+    .filter-3 {
+        left: 60px;
+        top: 145px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon {
+        left: 35px;
+        top: 200px;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 520px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 740px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 970px;
+    }
+
+        .m-21 {
+        left: 950px;
+        width: 170px;
+        top: 300px;
+    }
+
+    .m-22 {
+        left: 1090px;
+        top: 300px;
+        
+    }
+
+    .line-m {
+        left: 6%;
+        width: 88%;
+        top: 380px;
+    }
+
+    .copyright {
+        left: 6%;
+        top: 420px;
+        font-size: 13px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 420px;
+    }
+
+    .police-2 {
+        left: 77%;
+        top: 420px;
+    }
+
+    .police-3 {
+        left: 89%;
+        top: 420px;
+    }
+}
