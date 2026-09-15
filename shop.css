@@ -2575,7 +2575,7 @@ height: 45px;
     .section-1 {
         top: 500px;
         left: 35px;
-        width: 36%;
+        width: 40%;
         height: 135px;
     }
 
@@ -2663,12 +2663,13 @@ height: 45px;
 
     .sort {
         top: 755px;
-        left: 900px;
+        left: 850px;
         font-size: 16px;
     }
 
     .box-5 {
-        left: 970px;
+        left: 900px;
+        top: 748px;
     }
 
 
@@ -2686,20 +2687,20 @@ height: 45px;
     }
 
     .card-1 {
-        left: 45px;
+        left: 20px;
     }
 
     .card-7 {
-        left: 335px;
+        left: 275px;
     }
 
     .card-13 {
-        left: 625px;
+        left: 530px;
         width: 235px;
     }
 
     .card-19 {
-        left: 915px;
+        left: 780px;
         width: 235px;
     }
 
@@ -2783,20 +2784,20 @@ height: 45px;
     }
 
     .cart-1 {
-        left: 45px;
+        left: 25px;
     }
 
     .cart-7 {
-        left: 335px;
+        left: 275px;
     }
 
     .cart-13 {
-        left: 625px;
+        left: 530px;
         width: 235px;
     }
 
     .cart-19 {
-        left: 915px;
+        left: 780px;
         width: 235px;
     }
 
@@ -2871,7 +2872,7 @@ height: 45px;
     }
 
     
-     .logo-1 {
+    .logo-1 {
         left: 45px;
         top: 55px;
         height: 55px;
@@ -2915,7 +2916,7 @@ height: 45px;
     .m-10,
     .m-11,
     .m-12 {
-        left: 520px;
+        left: 460px;
     }
 
     .m-13,
@@ -2924,23 +2925,23 @@ height: 45px;
     .m-16,
     .m-17,
     .m-18 {
-        left: 740px;
+        left: 650px;
     }
 
     .m-19,
     .m-20 {
-        left: 970px;
+        left: 890px;
     }
 
     .m-21 {
-        left: 950px;
+        left:830px;
         width: 170px;
-        top: 300px;
+        top: 320px;
     }
 
     .m-22 {
-        left: 1090px;
-        top: 300px;
+        left: 980px;
+        top: 320px;
         
     }
 

@@ -1658,7 +1658,7 @@ form:hover {
     .m-10,
     .m-11,
     .m-12 {
-        left: 520px;
+        left: 460px;
     }
 
     .m-13,
@@ -1667,23 +1667,23 @@ form:hover {
     .m-16,
     .m-17,
     .m-18 {
-        left: 740px;
+        left: 650px;
     }
 
     .m-19,
     .m-20 {
-        left: 970px;
+        left: 890px;
     }
 
-        .m-21 {
-        left: 950px;
+    .m-21 {
+        left:830px;
         width: 170px;
-        top: 300px;
+        top: 320px;
     }
 
     .m-22 {
-        left: 1090px;
-        top: 300px;
+        left: 980px;
+        top: 320px;
         
     }
 

@@ -2561,7 +2561,7 @@ nav a:hover {
     .con {
         top: 580px;
         left: 8%;
-        width: 84%;
+        width: 88%;
         height: 120px;
         border-radius: 25px;
     }
@@ -2887,7 +2887,7 @@ nav a:hover {
         height: 470px;
     }
 
-    .logo-1 {
+   .logo-1 {
         left: 45px;
         top: 55px;
         height: 55px;
@@ -2931,7 +2931,7 @@ nav a:hover {
     .m-10,
     .m-11,
     .m-12 {
-        left: 520px;
+        left: 460px;
     }
 
     .m-13,
@@ -2940,24 +2940,24 @@ nav a:hover {
     .m-16,
     .m-17,
     .m-18 {
-        left: 740px;
+        left: 650px;
     }
 
     .m-19,
     .m-20 {
-        left: 970px;
+        left: 890px;
     }
 
     .m-21 {
-        left: 950px;
+        left:830px;
         width: 170px;
-        top: 300px;
+        top: 320px;
     }
 
     .m-22 {
-        left: 1090px;
-        top: 300px;
-
+        left: 980px;
+        top: 320px;
+        
     }
 
     .line-m {
@@ -2986,3 +2986,4 @@ nav a:hover {
         left: 89%;
         top: 420px;
     }
+

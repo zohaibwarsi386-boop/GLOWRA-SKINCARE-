@@ -3501,6 +3501,9 @@ position: absolute;
         top: 17px;
         left: 28px;
     }
+    .left-1,.left-2,.left-3{
+        display: none;
+    }
 
 
     /* ================= HERO ================= */
@@ -3535,17 +3538,18 @@ position: absolute;
 
     .btn-1 a {
         top: 520px;
-        left: 7%;
+        left: 8%;
         font-size: 14px;
         padding: 14px 38px;
     }
 
     .btn-2 a {
         top: 520px;
-        left: 20%;
+        left: 23%;
         font-size: 14px;
         padding: 14px 30px;
     }
+   
 
 
     /* ================= BENEFITS ================= */
@@ -4138,7 +4142,7 @@ position: absolute;
     .m-10,
     .m-11,
     .m-12 {
-        left: 520px;
+        left: 460px;
     }
 
     .m-13,
@@ -4147,23 +4151,23 @@ position: absolute;
     .m-16,
     .m-17,
     .m-18 {
-        left: 740px;
+        left: 650px;
     }
 
     .m-19,
     .m-20 {
-        left: 970px;
+        left: 890px;
     }
 
     .m-21 {
-        left: 950px;
+        left:830px;
         width: 170px;
-        top: 300px;
+        top: 320px;
     }
 
     .m-22 {
-        left: 1090px;
-        top: 300px;
+        left: 980px;
+        top: 320px;
         
     }
 
