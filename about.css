@@ -3474,3 +3474,741 @@ nav a:hover {
 
     }
 }
+/* =========================================
+   GLOWRA ABOUT PAGE
+   LAPTOP FIX
+   1024px - 1400px
+========================================= */
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* ================= NAVBAR ================= */
+
+    nav {
+        width: 100%;
+        height: 90px;
+        position: relative;
+    }
+
+    nav h1 {
+        position: absolute;
+        left: 75px;
+        top: 20px;
+        font-size: 30px;
+    }
+
+    nav h5 {
+        position: absolute;
+        left: 75px;
+        top: 55px;
+        font-size: 11px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        height: 45px;
+    }
+
+    nav ul {
+        position: absolute;
+        left: auto;
+        right: 35px;
+        top: 30px;
+    }
+
+    nav li {
+        padding: 6px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        display: none;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .container {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 610px;
+
+        overflow: hidden;
+    }
+
+    .hero-image {
+        position: absolute;
+
+        top: 30px;
+        left: 62%;
+
+        width: 34%;
+        height: 550px;
+
+        object-fit: cover;
+    }
+
+    .hero-head {
+        position: absolute;
+
+        top: 100px;
+        left: 75px;
+
+        font-size: 12px;
+    }
+
+    .hero-head-2 {
+        position: absolute;
+
+        top: 140px;
+        left: 75px;
+
+        font-size: 43px;
+        line-height: 1.12;
+    }
+
+    .line {
+        position: absolute;
+
+        top: 350px;
+        left: 75px;
+
+        width: 90px;
+    }
+
+    .para-hero {
+        position: absolute;
+
+        top: 390px;
+        left: 75px;
+
+        font-size: 14px;
+        line-height: 25px;
+
+        width: 45%;
+    }
+
+
+    /* ================= STATS ================= */
+
+    .container-1 {
+        position: relative;
+
+        width: 100%;
+        height: 1050px;
+
+        top: 0;
+        left: 0;
+
+        background: #F7F3EA;
+    }
+
+    .z-1,
+    .z-4,
+    .z-7,
+    .z-10 {
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+    }
+
+    .z-1 {
+        top: 60px;
+        left: 7%;
+    }
+
+    .z-2 {
+        top: 130px;
+        left: 7%;
+        font-size: 19px;
+    }
+
+    .z-3 {
+        top: 160px;
+        left: 7%;
+        font-size: 14px;
+    }
+
+
+    .z-4 {
+        top: 60px;
+        left: 31%;
+    }
+
+    .z-5 {
+        top: 130px;
+        left: 31%;
+        font-size: 19px;
+    }
+
+    .z-6 {
+        top: 160px;
+        left: 31%;
+        font-size: 14px;
+    }
+
+
+    .z-7 {
+        top: 60px;
+        left: 55%;
+    }
+
+    .z-8 {
+        top: 130px;
+        left: 55%;
+        font-size: 19px;
+    }
+
+    .z-9 {
+        top: 160px;
+        left: 55%;
+        font-size: 14px;
+    }
+
+
+    .z-10 {
+        top: 60px;
+        left: 79%;
+    }
+
+    .z-11 {
+        top: 130px;
+        left: 79%;
+        font-size: 19px;
+    }
+
+    .z-12 {
+        top: 160px;
+        left: 79%;
+        width: 120px;
+        font-size: 14px;
+    }
+
+
+    /* STAT DIVIDERS */
+
+    .line-1,
+    .line-2,
+    .line-3 {
+        top: 80px;
+        height: 100px;
+        width: 1px;
+    }
+
+    .line-1 {
+        left: 25%;
+    }
+
+    .line-2 {
+        left: 50%;
+    }
+
+    .line-3 {
+        left: 75%;
+    }
+
+
+    /* ================= OUR JOURNEY ================= */
+
+    .section-2 {
+        position: relative;
+
+        top: 250px;
+        left: 7.5%;
+
+        width: 85%;
+        height: 380px;
+
+        border-radius: 20px;
+
+        overflow: hidden;
+    }
+
+    .sec {
+        position: absolute;
+
+        top: 0;
+        left: 55%;
+
+        width: 45%;
+        height: 380px;
+
+        object-fit: cover;
+    }
+
+    .mir-1 {
+        position: absolute;
+
+        top: 55px;
+        left: 7%;
+
+        font-size: 32px;
+    }
+
+    .mir-2 {
+        position: absolute;
+
+        top: 125px;
+        left: 7%;
+
+        width: 45%;
+
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+
+    /* ================= DIFFERENT ================= */
+
+    .man-1 {
+        position: absolute;
+
+        top: 450px;
+        left: 0;
+
+        width: 100%;
+        height: 350px;
+
+        background: #F7F3EA;
+    }
+
+    .man-2 {
+        position: absolute;
+
+        top: 20px;
+        left: 38%;
+
+        font-size: 28px;
+    }
+
+    .n-1,
+    .n-4,
+    .n-7,
+    .n-10 {
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+    }
+
+    .n-1 {
+        top: 90px;
+        left: 6%;
+    }
+
+    .n-2 {
+        top: 160px;
+        left: 6%;
+        font-size: 16px;
+    }
+
+    .n-3 {
+        top: 190px;
+        left: 4%;
+        font-size: 13px;
+    }
+
+
+    .n-4 {
+        top: 90px;
+        left: 30%;
+    }
+
+    .n-5 {
+        top: 160px;
+        left: 30%;
+        font-size: 16px;
+    }
+
+    .n-6 {
+        top: 190px;
+        left: 28%;
+        font-size: 13px;
+    }
+
+
+    .n-7 {
+        top: 90px;
+        left: 55%;
+    }
+
+    .n-8 {
+        top: 160px;
+        left: 55%;
+        font-size: 16px;
+    }
+
+    .n-9 {
+        top: 190px;
+        left: 52%;
+        font-size: 13px;
+    }
+
+
+    .n-10 {
+        top: 90px;
+        left: 79%;
+    }
+
+    .n-11 {
+        top: 160px;
+        left: 78%;
+        font-size: 16px;
+    }
+
+    .n-12 {
+        top: 190px;
+        left: 76%;
+        width: 140px;
+        font-size: 13px;
+    }
+
+
+    .line-4,
+    .line-5,
+    .line-6 {
+        top: 110px;
+        height: 110px;
+        width: 1px;
+    }
+
+    .line-4 {
+        left: 25%;
+    }
+
+    .line-5 {
+        left: 50%;
+    }
+
+    .line-6 {
+        left: 75%;
+    }
+
+
+    /* ================= FOUNDER ================= */
+
+    .section-3 {
+        position: absolute;
+
+        top: 850px;
+        left: 0;
+
+        width: 100%;
+        height: 400px;
+    }
+
+    .p-1 {
+        position: absolute;
+
+        top: 20px;
+        left: 5%;
+
+        width: 43%;
+        height: 350px;
+
+        object-fit: cover;
+    }
+
+    .p-2 {
+        position: absolute;
+
+        top: 100px;
+        left: 52%;
+
+        font-size: 30px;
+    }
+
+    .p-3 {
+        position: absolute;
+
+        top: 160px;
+        left: 52%;
+
+        width: 40%;
+
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .p-4 {
+        position: absolute;
+
+        top: 285px;
+        left: 52%;
+    }
+
+    .p-5 {
+        position: absolute;
+
+        top: 315px;
+        left: 52%;
+
+        font-size: 13px;
+    }
+
+
+    /* ================= FEATURED IN ================= */
+
+    .section-4 {
+        position: relative;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 180px;
+
+        margin-top: 0;
+    }
+
+    .end-1 {
+        top: 20px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 25px;
+    }
+
+    .end-2 {
+        top: 100px;
+        left: 12%;
+
+        font-size: 25px;
+    }
+
+    .end-3 {
+        top: 100px;
+        left: 32%;
+
+        font-size: 25px;
+    }
+
+    .end-4 {
+        top: 100px;
+        left: 50%;
+
+        font-size: 25px;
+    }
+
+    .end-5 {
+        top: 100px;
+        left: 66%;
+
+        font-size: 25px;
+    }
+
+    .end-6 {
+        top: 100px;
+        left: 86%;
+
+        font-size: 22px;
+    }
+
+
+    /* ================= NEWSLETTER ================= */
+
+    .section-5 {
+        position: relative;
+
+        width: 100%;
+        height: 300px;
+
+        margin: 0;
+    }
+
+    .sec-5 {
+        position: absolute;
+
+        top: 25px;
+        left: 25%;
+
+        width: 50%;
+        height: 250px;
+
+        object-fit: cover;
+
+        border-radius: 15px;
+    }
+
+    .in-1 {
+        position: absolute;
+
+        top: 55px;
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 25px;
+    }
+
+    .in-2 {
+        position: absolute;
+
+        top: 100px;
+        left: 30%;
+
+        width: 40%;
+
+        text-align: center;
+
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .in-3 {
+        position: absolute;
+
+        top: 160px;
+        left: 35%;
+
+        width: 200px;
+    }
+
+    .in-4 {
+        position: absolute;
+
+        top: 215px;
+        left: 43%;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer {
+        position: relative;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 500px;
+
+        overflow: hidden;
+    }
+
+    .logo-1 {
+        left: 40px;
+        top: 50px;
+        height: 55px;
+    }
+
+    .filter-1 {
+        left: 105px;
+        top: 55px;
+        font-size: 25px;
+    }
+
+    .filter-2 {
+        left: 105px;
+        top: 90px;
+        font-size: 11px;
+    }
+
+    .filter-3 {
+        left: 40px;
+        top: 140px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .icon {
+        left: 40px;
+        top: 200px;
+    }
+
+
+    /* FOOTER COLUMNS */
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6 {
+        left: 300px;
+    }
+
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        left: 470px;
+    }
+
+    .m-13,
+    .m-14,
+    .m-15,
+    .m-16,
+    .m-17,
+    .m-18 {
+        left: 650px;
+    }
+
+    .m-19,
+    .m-20 {
+        left: 830px;
+    }
+
+    .m-21 {
+        left: 830px;
+        top: 320px;
+        width: 160px;
+    }
+
+    .m-22 {
+        left: 990px;
+        top: 320px;
+    }
+
+    .line-m {
+        left: 5%;
+        width: 90%;
+        top: 390px;
+    }
+
+    .copyright {
+        left: 5%;
+        top: 425px;
+        font-size: 12px;
+    }
+
+    .police-1 {
+        left: 65%;
+        top: 425px;
+        font-size: 12px;
+    }
+
+    .police-2 {
+        left: 76%;
+        top: 425px;
+        font-size: 12px;
+    }
+
+    .police-3 {
+        left: 88%;
+        top: 425px;
+        font-size: 12px;
+    }
+}
